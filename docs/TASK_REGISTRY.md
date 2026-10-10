@@ -17,6 +17,7 @@ not pre-decompose provisional future phases.
 | --- | --- | --- | --- |
 | P0.1 | WP0.1 Documentation foundation | Establish initial project documentation | Complete: implemented, validated, and pushed to origin/main |
 | P0.2 | WP0.2 Product knowledge | Capture confirmed product requirements and agent continuity | Implemented and locally verified: required-content, link, scope, continuity, and whitespace checks passed |
+| P0.3 | WP0.3 Prompt AI continuity | Establish ZIP-readable Prompt AI workflow and intake checklist | Implemented and locally verified: link, workflow coverage, status consistency, documentation scope, and whitespace checks passed; checkpoint pending |
 
 Update task status only when evidence supports it. Project-wide implementation
 and verification state belongs in [project status](../PROJECT_STATUS.md).

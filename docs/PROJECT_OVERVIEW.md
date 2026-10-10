@@ -23,6 +23,9 @@ future goals. Their order, design, and feasibility are not yet settled.
 The [product foundation](PRODUCT_FOUNDATION.md) records confirmed requirements,
 product logic, and unresolved decisions in one place.
 
+Prompt AI assistants should follow the [operating workflow](PROMPT_AI_WORKFLOW.md)
+and [intake checklist](PROMPT_AI_INTAKE.md) to continue from repository context.
+
 The [project status](../PROJECT_STATUS.md) tracks implemented, verified, and
 incomplete work. The [roadmap](ROADMAP.md) is provisional; the
 [decisions register](DECISIONS.md) distinguishes approved context from plans
