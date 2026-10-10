@@ -24,10 +24,10 @@ stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.6 is complete. The current cross-phase governance task is in progress; no
-application task is active. Next, the owner identifies or confirms the next
-phase's high-level outcomes, then Prompt AI can propose a breakdown for approval.
-See the [roadmap](docs/ROADMAP.md),
+P0.6 is complete. Cross-phase governance and phase planning documentation is
+complete and pushed. No application task is active. Next, the owner identifies
+or confirms the next phase's high-level outcomes, then Prompt AI can propose a
+breakdown for approval. See the [roadmap](docs/ROADMAP.md),
 [task registry](docs/TASK_REGISTRY.md), [Prompt AI workflow](docs/PROMPT_AI_WORKFLOW.md),
 and [agent rules](AGENTS.md).
 

@@ -28,9 +28,9 @@ not pre-decompose provisional future phases.
 	complete and unchanged.
 
 No implementation phase is active and no approved phase breakdown exists. The
-current cross-phase governance documentation task is in progress; its status
-and checkpoint are tracked in [Project Status](../PROJECT_STATUS.md) and
-[AI Handoff](AI_HANDOFF.md). It has no phase/task ID and does not create P0.7.
+cross-phase governance documentation update is complete; it has no phase/task
+ID and does not create P0.7. Its completion and checkpoint are recorded in
+[Project Status](../PROJECT_STATUS.md) and [AI Handoff](AI_HANDOFF.md).
 Owner-approved phase planning follows the
 [Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
 
