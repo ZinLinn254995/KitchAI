@@ -8,19 +8,21 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** No coding task is active. P0.4, Technical Foundation
-	Decisions, is complete, locally verified, and pushed.
+- **Exact active task:** P0.5, Data Model & Historical Record Protection
+	Foundation; documentation is implemented and locally verified, with
+	the GitHub checkpoint pending.
 - **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
 	`origin/main` after the P0.4 update. A ZIP may not include Git history; when
 	live Git access is available, verify current HEAD and remote state before
 	claiming a newer checkpoint.
-- **Incomplete work:** Application design and implementation remain unstarted;
-	roadmap phases remain provisional. Technical stack recommendation remains
-	provisional pending owner approval.
+- **Incomplete work:** P0.5 GitHub checkpoint; application design and
+	implementation remain unstarted. Roadmap phases and technical stack
+	recommendation remain provisional.
 - **Blockers:** None known.
-- **Next recommended action:** Consult the owner about the provisional stack
-	recommendation and unresolved technical choices before agreeing to an
-	implementation scope. Do not begin P1 implementation without approval.
+- **Next recommended action:** Complete the P0.5 GitHub checkpoint. Then
+	continue owner review of unresolved data-model,
+	history, money, and technical-stack choices; do not start P0.6 or P1
+	automatically.
 
 ## Task
 

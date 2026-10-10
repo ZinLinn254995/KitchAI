@@ -58,6 +58,17 @@ implemented.
 
 - What data model, local persistence technology, and backup/recovery approach
   will meet the offline-first requirement?
+- What precise ownership and access model is needed if more than one user must
+  access a business? The confirmed ability for one user to manage multiple
+  businesses does not decide multi-user access.
+- What transaction-time values and correction/audit history must be retained
+  for each kind of purchase, sale, expense, and recipe-based cost record?
+- How should categories that are referenced by historical records be archived,
+  reassigned, or displayed? Exact deletion and archival behavior remains open.
+- What currency, money representation/precision, and rounding rules should be
+  used?
+- When gas or similar inputs could be either a shared production consumable or
+  an operating expense, how should the owner classify the actual use?
 - How should local data synchronize across devices, and how will conflicts be
   handled?
 - Should the provisional stack recommendation be adopted, and what

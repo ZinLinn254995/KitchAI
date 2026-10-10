@@ -7,23 +7,25 @@
 - **Implemented:** P0.1 documentation foundation and P0.2 product knowledge
   documentation are present. P0.3 Prompt AI continuity guides are implemented
   and pushed to `origin/main`. P0.4 technical foundation documentation is
-  implemented, locally verified, and pushed to `origin/main`.
+  implemented, locally verified, and pushed to `origin/main`. P0.5 conceptual
+  data-model and historical-protection documentation is implemented.
 - **Verified:** P0.1 through P0.3 documentation checks passed. P0.4 principle,
-  stack, handoff, status, link, scope, and whitespace checks passed. No
-  application behavior is verified.
+  stack, handoff, status, link, scope, and whitespace checks passed. P0.5
+  relationship, history, cost, decision, link, scope, and whitespace checks
+  passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases.
+  phases; P0.5 GitHub checkpoint.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.4 is complete. The technical principles are confirmed; the stack
-recommendation remains provisional. The next recommended action is owner review
-of unresolved technical choices before any implementation scope is approved.
-See the [task registry](docs/TASK_REGISTRY.md),
-[decisions register](docs/DECISIONS.md), and [agent rules](AGENTS.md).
+P0.5 documents conceptual data relationships and historical-record protection;
+the documentation checks passed and its GitHub checkpoint is pending. See the
+[task registry](docs/TASK_REGISTRY.md),
+[product foundation](docs/PRODUCT_FOUNDATION.md), [decisions register](docs/DECISIONS.md),
+and [agent rules](AGENTS.md).
 
 ## Sources of Truth
 
