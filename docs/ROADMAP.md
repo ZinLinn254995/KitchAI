@@ -9,7 +9,7 @@ active task.
 
 | Phase | Theme | Status |
 | --- | --- | --- |
-| P0 | Project and documentation foundation | In progress |
+| P0 | Project and documentation foundation | Complete |
 | P1 | Core business data: ingredients, menus, and recipes | Provisional |
 | P2 | Purchasing and actual cost tracking | Provisional |
 | P3 | Sales, expenses, and business/personal finance records | Provisional |

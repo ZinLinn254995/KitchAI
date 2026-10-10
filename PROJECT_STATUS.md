@@ -8,16 +8,16 @@
 - **Verified:** Required-file, local-link, and cross-document consistency checks
   passed; `git diff --check` passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases. GitHub checkpoint is pending.
+  phases.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.1 establishes the documentation foundation. The documentation is
-implemented and locally verified; its GitHub checkpoint remains pending. See
-the [task registry](docs/TASK_REGISTRY.md) and [agent rules](AGENTS.md).
+P0.1 establishes the documentation foundation. The documentation is implemented
+and locally verified, and its checkpoint was pushed to `origin/main`. See the
+[task registry](docs/TASK_REGISTRY.md) and [agent rules](AGENTS.md).
 
 ## Sources of Truth
 

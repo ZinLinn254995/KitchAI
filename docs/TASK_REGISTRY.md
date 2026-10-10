@@ -15,7 +15,7 @@ not pre-decompose provisional future phases.
 
 | ID | Work package | Task | Status |
 | --- | --- | --- | --- |
-| P0.1 | WP0.1 Documentation foundation | Establish initial project documentation | Implemented; locally verified; GitHub checkpoint pending |
+| P0.1 | WP0.1 Documentation foundation | Establish initial project documentation | Complete: implemented, validated, and pushed to origin/main |
 
 Update task status only when evidence supports it. Project-wide implementation
 and verification state belongs in [project status](../PROJECT_STATUS.md).
