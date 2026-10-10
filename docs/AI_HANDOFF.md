@@ -8,15 +8,16 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** No coding task is active. P0.3, Prompt AI Continuity
-	Workflow, is complete, locally verified, and pushed.
-- **Last confirmed checkpoint:** `main`, commit `1145c8d`, confirmed at
-	`origin/main`.
-- **Incomplete work:** Application design and implementation remain unstarted;
-	roadmap phases remain provisional.
+- **Exact active task:** P0.4, Technical Foundation Decisions; documentation
+	is implemented and locally verified; checkpoint is pending.
+- **Last confirmed checkpoint:** `main`, commit `02ffedf`, confirmed at
+	`origin/main` before P0.4 changes.
+- **Incomplete work:** P0.4 GitHub checkpoint; application design and
+	implementation remain unstarted, and roadmap phases remain provisional.
 - **Blockers:** None known.
-- **Next recommended action:** Consult the owner to agree on the next scope,
-	informed by relevant unresolved product decisions. Do not begin P1
+- **Next recommended action:** Finish P0.4 validation and checkpoint. Then
+	consult the owner on the next scope using the [task registry](TASK_REGISTRY.md)
+	and unresolved entries in [decisions](DECISIONS.md); do not begin P1
 	implementation without approval.
 
 ## Task

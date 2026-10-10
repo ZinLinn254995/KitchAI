@@ -12,21 +12,56 @@ Only explicit owner approval makes a proposal an approved decision.
 - The project's offline-first direction is established. Storage technology,
   synchronization design, and related implementation details remain open.
 
-No database schema, technology stack, synchronization algorithm, accounting
-formula, or exact deletion behavior is approved by this record.
+## Technical Direction
+
+These are confirmed architectural principles, not claims of implementation or
+approval of a specific technology stack:
+
+1. Local-first operation is the primary requirement.
+2. The application must support installation as a Progressive Web App (PWA).
+3. Locally stored records must remain available offline.
+4. Records must use stable unique identifiers.
+5. Important records must preserve historical values and relationships.
+6. Records referenced by historical transactions must not be silently deleted
+   or rewritten.
+7. The data layer must accommodate future synchronization.
+8. Online authentication, cloud persistence, backup, and multi-device
+   synchronization are later implementation concerns.
+9. Manual data entry must remain available independently of AI features.
+10. Financial records and cost calculations must use explicitly recorded
+    actual values, not estimates.
+
+No database schema, implementation technology, synchronization algorithm,
+accounting formula, or exact deletion behavior is approved by these principles.
 
 ## Provisional Plans
 
 - The broad phase sequence in the [roadmap](ROADMAP.md) is provisional and is
   not an approved schedule or detailed implementation plan.
 
+### Recommended Default Stack (Provisional)
+
+For a future implementation, recommend React with TypeScript and Vite, CSS
+Modules for styling, Dexie over browser IndexedDB for local persistence,
+`vite-plugin-pwa` for PWA support, and Supabase (PostgreSQL and Auth) for a
+future cloud service, deployed on Vercel. This combination uses a common,
+incremental web toolchain; keeps routine records local and available offline;
+and leaves a practical path to Google sign-in and cloud storage. Supabase does
+not provide the application's offline-to-cloud synchronization policy by
+itself; that remains a separate future design task.
+
+This is a recommendation only. No framework, styling system, local database
+library, PWA plugin, cloud provider, or hosting provider has been approved or
+implemented.
+
 ## Unresolved Questions
 
-- What data model, storage technology, and backup/recovery approach will meet
-  the offline-first requirement?
+- What data model, local persistence technology, and backup/recovery approach
+  will meet the offline-first requirement?
 - How should local data synchronize across devices, and how will conflicts be
   handled?
-- What authentication, hosting, privacy, and security requirements apply?
+- Should the provisional stack recommendation be adopted, and what
+  authentication, hosting, privacy, and security requirements apply?
 - Which QR ordering and delivery integrations are needed, and in what order?
 - What allocation or accounting treatment, if any, should be used for shared
   consumables? No estimate or formula is approved.
