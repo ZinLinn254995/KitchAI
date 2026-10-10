@@ -20,7 +20,7 @@ not pre-decompose provisional future phases.
 | P0.3 | WP0.3 Prompt AI continuity | Establish ZIP-readable Prompt AI workflow and intake checklist | Complete: implemented, locally verified, and pushed to origin/main |
 | P0.4 | WP0.4 Technical foundation | Record confirmed architecture principles and provisional stack recommendation | Complete: implemented, locally verified, and pushed to origin/main |
 | P0.5 | WP0.5 Data model foundation | Document conceptual relationships and historical-record protection | Complete: documentation implemented, locally verified, and pushed to origin/main |
-| P0.6 | WP0.6 Decision readiness | Organize remaining foundation decisions with recommendations and owner-approval gates | Implemented and locally verified: all eight topics, approval gates, links, status consistency, scope, and whitespace checks passed; GitHub checkpoint is pending |
+| P0.6 | WP0.6 Decision readiness | Organize remaining foundation decisions with recommendations and owner-approval gates | Complete: implemented, locally verified, and pushed to origin/main |
 
 Update task status only when evidence supports it. Project-wide implementation
 and verification state belongs in [project status](../PROJECT_STATUS.md).
