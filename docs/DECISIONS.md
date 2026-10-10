@@ -78,6 +78,8 @@ implemented as a business or financial rule without the approval stated below.
   business rounding/display rules.
 - **Affected areas:** Product Foundation, purchase/sales/expense entry, cost
   calculations, reports, exports, and eventual storage representation.
+- **Evidence needed:** Intended launch currencies, representative totals and
+  discounts, and required display/report examples.
 
 ### 2. Historical Retention, Archive, Delete, and Recovery
 
@@ -97,6 +99,8 @@ implemented as a business or financial rule without the approval stated below.
   deletion, archive visibility, and recovery guarantees.
 - **Affected areas:** Product Foundation, record lifecycle, local storage,
   history views, backup/restore, and privacy policy.
+- **Evidence needed:** Owner expectations for record retention, restore after
+  device loss, and sensitive-data deletion scenarios.
 
 ### 3. Purchase and Sales Corrections
 
@@ -115,6 +119,8 @@ implemented as a business or financial rule without the approval stated below.
   required audit details.
 - **Affected areas:** Product Foundation, purchase/sales entry, transaction
   history, reports, and audit behavior.
+- **Evidence needed:** Examples of mistaken purchase/sale entries and what the
+  owner needs to see afterward to trust and explain the correction.
 
 ### 4. Category Reassignment and Historical Reports
 
@@ -133,6 +139,8 @@ implemented as a business or financial rule without the approval stated below.
   reassignment semantics.
 - **Affected areas:** Product Foundation, category management, purchase/sales/
   expense reports, and record history.
+- **Evidence needed:** Example category changes and whether past reports should
+  retain their prior grouping or reflect a corrected classification.
 
 ### 5. Shared Consumables and Unallocated Costs
 
@@ -151,6 +159,8 @@ implemented as a business or financial rule without the approval stated below.
   publishing allocated costs; no approval is needed to preserve actual values.
 - **Affected areas:** Product Foundation, purchasing, production records, recipe
   costing, expense handling, and reports.
+- **Evidence needed:** Actual purchase/use/output records and whether leaving a
+  cost unallocated is acceptable when usage cannot be measured.
 
 ### 6. Gas and Other Ambiguous Expense Classification
 
@@ -171,6 +181,8 @@ implemented as a business or financial rule without the approval stated below.
   split/allocation rules.
 - **Affected areas:** Product Foundation, item categories, purchasing, expense
   records, and cost reports.
+- **Evidence needed:** Real gas-use cases and whether any reliable evidence
+  exists to split a purchase between operating and production use.
 
 ### 7. Business Ownership, Multi-User Access, and Permissions
 
@@ -190,6 +202,8 @@ implemented as a business or financial rule without the approval stated below.
   access, roles, invitations, or ownership transfer.
 - **Affected areas:** Product Foundation, account/business ownership,
   authentication, authorization, personal finance, and future synchronization.
+- **Evidence needed:** Who besides the owner needs access, which business data
+  they need, and whether any personal data should ever be shared.
 
 ### 8. Local Persistence and Future Synchronization
 
@@ -212,9 +226,16 @@ implemented as a business or financial rule without the approval stated below.
   semantics beyond those principles.
 - **Affected areas:** Technical Direction, Product Foundation, local data layer,
   PWA lifecycle, backup/recovery, authentication, and future sync.
+- **Evidence needed:** Target devices/browsers, expected offline duration,
+  acceptable recovery point after device loss, and concrete multi-device cases.
 
 ### Other Open Questions
 
+- Is stock-on-hand inventory tracking in scope beyond reusable item records,
+  purchases, and recorded production output? If so, define the required stock
+  movements, adjustments, and units before designing that workflow.
+- What application testing strategy and minimum verification evidence should be
+  required for data, offline, and financial workflows?
 - Should the [provisional stack recommendation](DECISIONS.md#recommended-default-stack-provisional)
   be adopted, and what hosting, privacy, and security requirements apply?
 - Which QR ordering and delivery integrations are needed, and in what order?
