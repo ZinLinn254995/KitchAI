@@ -7,19 +7,21 @@
 - **Implemented:** P0.1 documentation foundation and P0.2 product knowledge
   documentation are present. P0.3 Prompt AI continuity guides are implemented
   and pushed to `origin/main`. P0.4 technical foundation documentation is
-  implemented and locally verified.
+  implemented, locally verified, and pushed to `origin/main`.
 - **Verified:** P0.1 through P0.3 documentation checks passed. P0.4 principle,
   stack, handoff, status, link, scope, and whitespace checks passed. No
   application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases; P0.4 GitHub checkpoint.
+  phases.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.4 records confirmed technical principles and a provisional default stack.
+P0.4 is complete. The technical principles are confirmed; the stack
+recommendation remains provisional. The next recommended action is owner review
+of unresolved technical choices before any implementation scope is approved.
 See the [task registry](docs/TASK_REGISTRY.md),
 [decisions register](docs/DECISIONS.md), and [agent rules](AGENTS.md).
 

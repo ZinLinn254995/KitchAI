@@ -8,17 +8,17 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** P0.4, Technical Foundation Decisions; documentation
-	is implemented and locally verified; checkpoint is pending.
-- **Last confirmed checkpoint:** `main`, commit `02ffedf`, confirmed at
-	`origin/main` before P0.4 changes.
-- **Incomplete work:** P0.4 GitHub checkpoint; application design and
-	implementation remain unstarted, and roadmap phases remain provisional.
+- **Exact active task:** No coding task is active. P0.4, Technical Foundation
+	Decisions, is complete, locally verified, and pushed.
+- **Last confirmed checkpoint:** `main`, commit `8c4e471`, confirmed at
+	`origin/main`.
+- **Incomplete work:** Application design and implementation remain unstarted;
+	roadmap phases remain provisional. Technical stack recommendation remains
+	provisional pending owner approval.
 - **Blockers:** None known.
-- **Next recommended action:** Finish P0.4 validation and checkpoint. Then
-	consult the owner on the next scope using the [task registry](TASK_REGISTRY.md)
-	and unresolved entries in [decisions](DECISIONS.md); do not begin P1
-	implementation without approval.
+- **Next recommended action:** Consult the owner about the provisional stack
+	recommendation and unresolved technical choices before agreeing to an
+	implementation scope. Do not begin P1 implementation without approval.
 
 ## Task
 
