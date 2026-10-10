@@ -8,19 +8,18 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** No task is active. P0.6 Decision Resolution is complete;
-	documentation is implemented and locally verified, and pushed.
-- **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
-	`origin/main` after P0.6. A ZIP may not include Git history; when live Git
-	access is available, verify current HEAD and remote state before claiming a
-	newer checkpoint.
-- **Incomplete work:** Application design and
-	implementation remain unstarted. P0.6 recommendations require owner review.
-	Roadmap phases and technical stack recommendation remain provisional.
+- **Exact active task:** Project Governance and Phase Planning Workflow;
+	documentation work is in progress. This is not a phase coding task.
+- **Last confirmed checkpoint:** `main` was clean and synchronized with
+	`origin/main` at `a20a9d7` before this governance update. A ZIP may omit Git
+	history; verify live Git state when available.
+- **Incomplete work:** Governance validation/checkpoint; no owner-approved
+	phase breakdown or coding task is ready. Application implementation remains
+	unstarted; roadmap and technical stack remain provisional.
 - **Blockers:** None known.
-- **Next recommended action:** The P0.6 checkpoint is complete; next,
-	consult the owner on material policy choices before planning another task.
-	Do not start P0.7 or P1 automatically.
+- **Next recommended action:** Complete and checkpoint this governance update;
+	then the owner confirms next-phase outcomes for Prompt AI breakdown. Do not
+	create or start P0.7, P1, or any coding task automatically.
 
 ## Task
 

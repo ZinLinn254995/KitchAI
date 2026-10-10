@@ -17,17 +17,18 @@
   passed. P0.6 decision coverage, approval labeling, link, status, scope, and
   whitespace checks passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases; owner review of unresolved recommendations.
+  phases; no owner-approved phase breakdown or coding task is currently ready.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.6 is complete. The next step is owner review of unresolved recommendations;
-do not treat them as approved or start another phase automatically. See the
-[task registry](docs/TASK_REGISTRY.md),
-[decisions register](docs/DECISIONS.md), [product foundation](docs/PRODUCT_FOUNDATION.md),
+P0.6 is complete. The current cross-phase governance task is in progress; no
+application task is active. Next, the owner identifies or confirms the next
+phase's high-level outcomes, then Prompt AI can propose a breakdown for approval.
+See the [roadmap](docs/ROADMAP.md),
+[task registry](docs/TASK_REGISTRY.md), [Prompt AI workflow](docs/PROMPT_AI_WORKFLOW.md),
 and [agent rules](AGENTS.md).
 
 ## Sources of Truth

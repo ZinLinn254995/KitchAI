@@ -2,16 +2,64 @@
 
 ## Hierarchy
 
-Work is organized as **Phase → Work Package → Task**:
+Work is organized as **Project → Phase → Work Package → Coding Task**:
 
 - **Phase:** broad project stage, such as P0.
-- **Work Package:** cohesive outcome within a phase, such as WP0.1.
-- **Task:** independently actionable, checkable work item, such as P0.1.
+- **Work Package:** cohesive outcome within a phase, such as P1.1.
+- **Coding Task:** independently actionable, checkable work item, such as P1.1a.
 
 Identifiers retain their parent prefix. Register active work at task level; do
 not pre-decompose provisional future phases.
 
-## Active Tasks
+## Plan Authority
+
+- [Roadmap](ROADMAP.md) is the owner-controlled, high-level phase source; its
+	provisional phase themes are not approved implementation scope.
+- A detailed phase breakdown is maintained in
+	`docs/phases/<PHASE_ID>_PLAN.md` only when that phase is being planned. It
+	distinguishes proposal from owner approval and contains approved outcomes,
+	work packages, and coding-task contracts.
+- This registry indexes task IDs, parent IDs, approval, dependencies, lifecycle
+	status, and checkpoint evidence. Detailed behavior stays in the approved
+	phase plan and canonical product documents.
+- Task prompts are created only for approved tasks at
+	`docs/prompts/<TASK_ID>.md` and linked here or from the phase plan. No phase
+	breakdowns or coding prompts currently exist; P0.1–P0.6 history remains
+	complete and unchanged.
+
+No implementation phase is active and no approved phase breakdown exists. The
+current cross-phase governance documentation task is in progress; its status
+and checkpoint are tracked in [Project Status](../PROJECT_STATUS.md) and
+[AI Handoff](AI_HANDOFF.md). It has no phase/task ID and does not create P0.7.
+Owner-approved phase planning follows the
+[Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
+
+## Repeatable Coding Task Contract
+
+Each decomposed coding task includes, where relevant: unique task ID and parent
+phase/work package; lifecycle status and separate owner-approval state;
+objective and exact permitted scope; prerequisites and dependencies; required
+behavior and constraints; acceptance criteria; focused validation steps; files
+or areas expected to change; explicit exclusions; and a task-specific prompt
+or clear prompt reference.
+
+Track these completion facts independently: implementation state, local checks
+and results, commit ID, and confirmed remote branch/push state or blocker. Use
+lifecycle states **planned**, **ready**, **in progress**, **blocked**,
+**completed**, or **verified**; neither a generated prompt nor a commit alone
+implies validation or successful publication. Preserve historical P0 rows as
+recorded rather than retrofitting them to this contract.
+
+For new tasks, **planned** means proposed but not ready to implement; **ready**
+means the task is owner-approved and its prerequisites are met; **in progress**
+means implementation has started; **blocked** records an impediment; **completed**
+means implementation is done; and **verified** means acceptance checks passed.
+Commit and remote push are separate checkpoint facts for every state.
+
+## Historical Phase Tasks
+
+P0.1–P0.6 below record completed foundation tasks. Do not reopen or renumber
+them without a concrete discrepancy.
 
 | ID | Work package | Task | Status |
 | --- | --- | --- | --- |

@@ -54,7 +54,36 @@ Make a reasonable recommendation instead of repeatedly asking the owner to
 choose between options. Do not reopen confirmed decisions without new evidence
 of a real conflict or an owner request.
 
-## D. Plan Phases and Small Coding Tasks
+## D. Phase Intake and Breakdown
+
+For every continuation request, including a ZIP or a request to resume work:
+
+1. Read repository instructions and Project Status; identify the active phase,
+   its state, and the next task in the [Task Registry](TASK_REGISTRY.md).
+2. Find the matching `docs/phases/<PHASE_ID>_PLAN.md`, if present, and check
+   whether the breakdown is complete and explicitly approved by the owner.
+3. If an approved breakdown is usable, continue its next incomplete approved
+   task using its dependencies, scope, acceptance criteria, and decisions. Do
+   not create a competing plan or repeat completed work.
+4. If the breakdown is absent, proposed, incomplete, or ambiguous, report what
+   is established, missing, and owner-dependent. Prompt AI works with the owner
+   on a proposed breakdown; Coding AI waits for that approval before
+   scope-defining implementation.
+
+The [roadmap](ROADMAP.md) owns high-level phase direction and owner-controlled
+outcomes. A phase plan is the detailed, reviewable breakdown. The task registry
+indexes plan/task IDs, approval, dependencies, and progress. Do not copy
+canonical product rules from [Product Foundation](PRODUCT_FOUNDATION.md); link
+to them instead. Create a phase plan only when that phase is being planned, not
+for every roadmap phase in advance.
+
+Prompt AI helps the owner clarify phase outcomes, surface missing requirements,
+dependencies, risks, and alternatives, then proposes a phase breakdown for
+owner review. Record proposal state separately from approval; only explicit
+owner approval makes its scope ready for implementation. Do not create P0.7 or
+another phase task as a side effect of governance work.
+
+## E. Plan Phases and Small Coding Tasks
 
 Maintain the hierarchy **Project → Phase → Work Package → Coding Task**. IDs
 such as P1, P1.1, and P1.1a are illustrative; use the actual project registry
@@ -62,35 +91,53 @@ and preserve its parent/child IDs. Keep the roadmap high-level and provisional.
 Detail only the next scope approved by the owner; do not plan future phases
 prematurely.
 
-Each registered coding task must have a unique ID, objective, permitted scope,
-explicit exclusions, dependencies, acceptance criteria, validation steps,
-checkpoint requirements, and expected completion report. Keep tasks small
-enough for coding agents with limited usage. Track status as planned, ready, in
-progress, blocked, completed, or verified, following existing registry
-conventions and preserving the distinction between completion and verification.
-A generated prompt alone never completes or verifies a task.
+Each coding task in an approved breakdown must have a unique ID and parent
+phase/work package; approval state; objective and exact scope; prerequisites and
+dependencies; required behavior and constraints; acceptance criteria;
+validation; expected files/areas; explicit out-of-scope work; and a task-specific
+Coding AI prompt or clear prompt reference. Keep tasks small and ordered for
+limited-use coding agents. The [task registry](TASK_REGISTRY.md) records plan
+and task status without duplicating detailed behavior.
 
-## E. Generate Coding AI Prompts
+Use lifecycle states **planned**, **ready**, **in progress**, **blocked**,
+**completed**, and **verified**. Keep owner approval separate from lifecycle
+status. Track implementation, local validation (including checks and results),
+commit ID, and confirmed remote push independently; `completed` or `verified`
+does not by itself prove a commit or push. A generated prompt alone never
+completes or verifies a task.
+
+## F. Generate Coding AI Prompts
 
 Generate a coding prompt only after owner and Prompt AI agreement on task scope.
 Make it self-contained without reproducing large documents. Include:
 
-- Task ID and title; relevant context and source-document links.
-- Exact objective, permitted scope, and explicit exclusions.
+- Task ID and title, parent phase/work package, and relevant source-document
+   links.
+- Exact objective, permitted scope, expected files/areas, and explicit
+   exclusions.
 - Existing behavior and decisions to preserve.
 - Dependencies and prerequisites.
 - Acceptance criteria and focused validation commands or checks.
 - Required documentation updates and GitHub checkpoint instructions.
 - Required completion report.
 
-## F. Coding AI Completion and Recovery
+Store an approved task-specific prompt at `docs/prompts/<TASK_ID>.md` and link
+it from the phase plan/task registry, or provide an equally clear existing
+prompt reference. Do not create prompts for unapproved tasks.
 
-Require coding agents to inspect branch, worktree, and remote before editing;
-preserve unrelated changes; stay within scope; run applicable checks; update the
-task record and handoff accurately; and commit and push recoverable progress
-when permitted. Require the exact commit ID and remote-publication verification
-when possible. Report incomplete work, errors, failed checks, blockers, local
-branch/commit state, and the next recovery action.
+Prompt AI maintains planning documents and generates these task-specific prompts;
+Coding AI reads the approved task plan/prompt and implements that task only.
+
+## G. Coding AI Completion and Recovery
+
+Coding AI implements the next approved task only: inspect branch, worktree, and
+remote before editing; preserve unrelated changes; follow scope and criteria;
+avoid unrelated refactoring, unapproved dependencies, and scope expansion; run
+focused checks; inspect the diff; stage intended files; update task and handoff;
+and commit/push the reviewed checkpoint when safe and permitted. Record
+implementation, validation, commit ID, and confirmed remote publication as
+separate evidence. Report incomplete work, errors, failed checks, blockers,
+local/remote branch state, and the next recovery action.
 
 If a usage limit is reached, preserve recoverable work when the environment
 allows. If pushing is impossible, state why and report local state; never claim
@@ -99,7 +146,7 @@ pushes, or overwriting unrelated changes. The next agent should use the task
 record and actual repository state to resume. Restart only when the owner or
 task instructions explicitly choose that path.
 
-## G. Maintain Project Continuity
+## H. Maintain Project Continuity
 
 After each task, update only the owning records:
 
