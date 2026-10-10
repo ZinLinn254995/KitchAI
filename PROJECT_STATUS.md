@@ -15,17 +15,16 @@
   relationship, history, cost, decision, link, scope, and whitespace checks
   passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases.
+  phases; P0.6 GitHub checkpoint.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-P0.5 is complete. The next foundation step is owner review of unresolved data,
-history, and money-handling decisions before another task is approved. See the
-[task registry](docs/TASK_REGISTRY.md),
-[product foundation](docs/PRODUCT_FOUNDATION.md), [decisions register](docs/DECISIONS.md),
+P0.6 decision resolution is implemented and locally verified; the GitHub
+checkpoint is pending. See the [task registry](docs/TASK_REGISTRY.md),
+[decisions register](docs/DECISIONS.md), [product foundation](docs/PRODUCT_FOUNDATION.md),
 and [agent rules](AGENTS.md).
 
 ## Sources of Truth
