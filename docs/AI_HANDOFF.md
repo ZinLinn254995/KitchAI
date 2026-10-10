@@ -10,8 +10,10 @@ into task handoffs.
 
 - **Exact active task:** No coding task is active. P0.4, Technical Foundation
 	Decisions, is complete, locally verified, and pushed.
-- **Last confirmed checkpoint:** `main`, commit `8c4e471`, confirmed at
-	`origin/main`.
+- **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
+	`origin/main` after the P0.4 update. A ZIP may not include Git history; when
+	live Git access is available, verify current HEAD and remote state before
+	claiming a newer checkpoint.
 - **Incomplete work:** Application design and implementation remain unstarted;
 	roadmap phases remain provisional. Technical stack recommendation remains
 	provisional pending owner approval.
