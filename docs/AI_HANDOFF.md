@@ -8,21 +8,19 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** P0.5, Data Model & Historical Record Protection
-	Foundation; documentation is implemented and locally verified, with
-	the GitHub checkpoint pending.
+- **Exact active task:** No task is currently active. P0.5, Data Model &
+	Historical Record Protection Foundation, is complete, locally verified, and
+	pushed.
 - **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
-	`origin/main` after the P0.4 update. A ZIP may not include Git history; when
-	live Git access is available, verify current HEAD and remote state before
-	claiming a newer checkpoint.
-- **Incomplete work:** P0.5 GitHub checkpoint; application design and
-	implementation remain unstarted. Roadmap phases and technical stack
-	recommendation remain provisional.
+	`origin/main` after P0.5. A ZIP may not include Git history; when live Git
+	access is available, verify current HEAD and remote state before claiming a
+	newer checkpoint.
+- **Incomplete work:** Application design and implementation remain unstarted.
+	Roadmap phases and technical stack recommendation remain provisional.
 - **Blockers:** None known.
-- **Next recommended action:** Complete the P0.5 GitHub checkpoint. Then
-	continue owner review of unresolved data-model,
-	history, money, and technical-stack choices; do not start P0.6 or P1
-	automatically.
+- **Next recommended action:** Consult the owner on unresolved data-model,
+	historical-record, money-handling, and technical-stack questions before
+	agreeing to another task. Do not start P0.6 or P1 automatically.
 
 ## Task
 
