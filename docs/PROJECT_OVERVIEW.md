@@ -20,6 +20,9 @@ future goals. Their order, design, and feasibility are not yet settled.
 
 ## Status and Authority
 
+The [product foundation](PRODUCT_FOUNDATION.md) records confirmed requirements,
+product logic, and unresolved decisions in one place.
+
 The [project status](../PROJECT_STATUS.md) tracks implemented, verified, and
 incomplete work. The [roadmap](ROADMAP.md) is provisional; the
 [decisions register](DECISIONS.md) distinguishes approved context from plans

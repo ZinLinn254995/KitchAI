@@ -16,6 +16,7 @@ not pre-decompose provisional future phases.
 | ID | Work package | Task | Status |
 | --- | --- | --- | --- |
 | P0.1 | WP0.1 Documentation foundation | Establish initial project documentation | Complete: implemented, validated, and pushed to origin/main |
+| P0.2 | WP0.2 Product knowledge | Capture confirmed product requirements and agent continuity | Implemented and locally verified: required-content, link, scope, continuity, and whitespace checks passed |
 
 Update task status only when evidence supports it. Project-wide implementation
 and verification state belongs in [project status](../PROJECT_STATUS.md).
