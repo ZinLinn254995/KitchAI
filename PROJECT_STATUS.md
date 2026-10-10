@@ -17,8 +17,7 @@
   passed. P0.6 decision coverage, approval labeling, link, status, scope, and
   whitespace checks passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases; P0.7 GitHub checkpoint; no owner-approved phase breakdown or coding
-  task is currently ready.
+  phases; no owner-approved phase breakdown or coding task is currently ready.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
@@ -62,8 +61,8 @@ acceptance criteria. See the
 [task registry](docs/TASK_REGISTRY.md), [decisions](docs/DECISIONS.md),
 [roadmap](docs/ROADMAP.md), and [Prompt AI workflow](docs/PROMPT_AI_WORKFLOW.md).
 
-P0.7 audit documentation is implemented and locally verified; its GitHub
-checkpoint is pending.
+P0.7 audit documentation is implemented, locally verified, and pushed to
+`origin/main`.
 
 ## Sources of Truth
 
