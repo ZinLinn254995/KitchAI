@@ -237,6 +237,8 @@ recovery, and lifecycle tests.
 
 **Contribution:** Advances the long-term AI-enabled SaaS objective.
 
+**Detailed planning record:** The proposed [Phase 6 Plan](phases/PHASE_6_PLAN.md) documents WP6-01 through WP6-08, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
+
 ### P7 — Integrations, Automation, and Growth Capabilities
 
 **Purpose and outcomes:** Add approved external integrations and automation

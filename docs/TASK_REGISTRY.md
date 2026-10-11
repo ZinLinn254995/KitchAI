@@ -28,9 +28,10 @@ not pre-decompose provisional future phases.
 	complete and unchanged.
 
 No implementation phase is active and no approved phase breakdown exists. Proposed
-Phase 1, Phase 2, Phase 3, Phase 4, and Phase 5 planning baselines are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
+Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, and Phase 6 planning baselines are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
 [Phase 2 Plan](phases/PHASE_2_PLAN.md), [Phase 3 Plan](phases/PHASE_3_PLAN.md),
-[Phase 4 Plan](phases/PHASE_4_PLAN.md), and [Phase 5 Plan](phases/PHASE_5_PLAN.md).
+[Phase 4 Plan](phases/PHASE_4_PLAN.md), [Phase 5 Plan](phases/PHASE_5_PLAN.md),
+and [Phase 6 Plan](phases/PHASE_6_PLAN.md).
 None is owner-approved and none creates coding tasks or prompts. The cross-phase
 governance documentation update is complete; it has no phase/task ID and does not
 create P0.7. Its completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)

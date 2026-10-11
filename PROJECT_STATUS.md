@@ -27,8 +27,10 @@ stated check, and incomplete work remains unfinished or unchecked.
 
 Phase 5 planning documentation is proposed and documentation-only; it does not
   authorize implementation. The proposed [Phase 5 Plan](docs/phases/PHASE_5_PLAN.md)
-  contains WP5-01 through WP5-08 and remains proposed / not approved. Proposed
-  Phase 1 through Phase 4 planning documents remain pending owner approval.
+  contains WP5-01 through WP5-08 and remains proposed / not approved. The proposed
+  [Phase 6 Plan](docs/phases/PHASE_6_PLAN.md) contains WP6-01 through WP6-08 and
+  remains proposed / not approved. Proposed Phase 1 through Phase 5 planning
+  documents remain pending owner approval.
 
 P0.7 is an implementation-readiness audit only; it does not authorize
 implementation. The repository is not ready for application implementation.

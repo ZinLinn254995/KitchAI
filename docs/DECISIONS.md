@@ -102,6 +102,10 @@ storage limits, backup and restore, performance, accessibility, observability an
 privacy, security hardening, and release/rollback ownership. These decisions
 must not be implemented by inference.
 
+## Phase 6 Planning Decisions Pending Owner Approval
+
+The proposed Phase 6 plan is documented in [Phase 6 Plan](phases/PHASE_6_PLAN.md). D6-01 through D6-10 remain OPEN unless an authoritative owner record explicitly approves them. They cover whether collaboration is needed, account/profile controls, authentication and recovery, roles, invitations, ownership transfer, deletion/retention/recovery, support access, audit retention, and operational ownership. These decisions must not be implemented by inference.
+
 ## Unresolved Questions
 
 Recommendations below are proposals for owner review, not confirmed decisions.
