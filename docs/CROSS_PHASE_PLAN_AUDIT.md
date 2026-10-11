@@ -1,7 +1,7 @@
 # KitchAI Cross-Phase Plan Audit
 
-**Audit status:** Implemented as documentation; verification pending final diff checks.
-**Audit revision:** Branch `v0/phase-8-planning`, inspected commit `7a3eb3a` (`Add proposed Phase 8 planning baseline`).
+**Audit status:** Implemented as documentation; the roadmap placement remediation is applied, with final diff checks pending.
+**Audit revision:** Branch `v0/phase-8-planning`, current inspected commit `98b846c` (`Add cross-phase planning audit`).
 **Scope:** Proposed roadmap Phases 1–8 and the governing project/status/handoff/registry/decision documents. This audit does not approve a phase or authorize implementation.
 
 ## 1. Repository state and evidence boundary
@@ -60,12 +60,13 @@ The roadmap is **not implementation-ready** and the eight-phase program is **not
 - **Impact:** Keeping a detailed final phase in the roadmap may cause future agents to interpret its existence as a release program or completeness target despite its explicit gates.
 - **Recommended action:** Retain it as a provisional governance proposal, but keep a prominent “not applicable until P1–P7 evidence exists” gate in status/handoff and do not create WP8 coding prompts.
 
-### MEDIUM-02 — Roadmap phase-boundary traceability has a documentation defect
+### MEDIUM-02 — Roadmap phase-boundary traceability had a documentation defect (remediated)
 
 - **Affected:** `docs/ROADMAP.md`, around the P6/P7 detailed planning records.
-- **Evidence:** The P6 section contains the Phase 6 detailed-plan record and then immediately contains a separate Phase 7 detailed-plan record before the P7 heading. The Phase 7 plan itself and registry identify P7 correctly, so this is a placement/traceability issue rather than an identifier collision.
-- **Impact:** Readers and automated document checks may associate the P7 record with P6 or miss the intended P7 boundary.
-- **Recommended action:** Move the Phase 7 detailed planning record under the P7 section without changing scope or status, then rerun link/scope checks.
+- **Original evidence:** The P6 section contained the Phase 6 detailed-plan record and then a separate Phase 7 detailed-plan record before the P7 heading. The Phase 7 plan itself and registry identified P7 correctly, so this was a placement/traceability issue rather than an identifier collision.
+- **Impact:** Before remediation, readers and automated document checks could associate the P7 record with P6 or miss the intended P7 boundary.
+- **Remediation:** The Phase 7 detailed-plan record was moved under the P7 section. Product scope, WP identifiers, phase status, and owner decisions were not changed.
+- **Remaining verification:** Run final link/scope/whitespace checks and inspect the final diff.
 
 ### MEDIUM-03 — Optional collaboration in P6 needs a single downstream contract
 
@@ -149,7 +150,7 @@ All material decisions reviewed remain OPEN and must not be inferred. The highes
 ## 8. Prioritized remediation checklist
 
 1. Preserve the current proposal labels and explicitly keep implementation blocked.
-2. Correct the P6/P7 detailed-record placement in `ROADMAP.md`.
+2. Complete final checks for the corrected P6/P7 detailed-record placement in `ROADMAP.md`.
 3. Owner-review and approve one complete next phase, beginning with P1, including material decisions and exclusions.
 4. Define canonical identity, lifecycle, conflict, recovery, history, authorization, and evidence contracts before dependent implementation.
 5. Create only the first owner-approved coding task and prompt after the phase gate; record validation and Git evidence separately.

@@ -239,8 +239,6 @@ recovery, and lifecycle tests.
 
 **Detailed planning record:** The proposed [Phase 6 Plan](phases/PHASE_6_PLAN.md) documents WP6-01 through WP6-08, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
 
-**Detailed planning record:** The proposed [Phase 7 Plan](phases/PHASE_7_PLAN.md) documents WP7-01 through WP7-10, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
-
 ### P7 — Integrations, Automation, and Growth Capabilities
 
 **Purpose and outcomes:** Add approved external integrations and automation
