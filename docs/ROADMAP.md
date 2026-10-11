@@ -117,6 +117,10 @@ allocation are open.
 business data, purchases, recipes, and actual costs offline and online without
 breaking historical meaning or ownership boundaries.
 
+**Detailed planning record:** The proposed [Phase 2 Plan](phases/PHASE_2_PLAN.md)
+documents WP2-01 through WP2-10, dependencies, acceptance criteria, and open
+owner decisions. It does not authorize implementation.
+
 **Contribution:** Core MVP business foundation.
 
 ### P3 — Sales, Expenses, Reporting, and Finance Separation
@@ -143,6 +147,10 @@ treatment require owner decisions.
 records separate, preserve transaction history, calculate only supported actual
 values, and produce validated reports.
 
+**Detailed planning record:** The proposed [Phase 3 Plan](phases/PHASE_3_PLAN.md)
+documents WP3-01 through WP3-08, dependencies, acceptance criteria, and open
+owner decisions. It does not authorize implementation.
+
 **Contribution:** Completes the Core MVP operating loop.
 
 ### P4 — Basic AI Assistant
@@ -168,8 +176,12 @@ UX remain open.
 **Completion criteria:** Basic AI scenarios meet approved quality checks,
 respect access boundaries, disclose uncertainty, and cannot save financial
 changes without the required validation and user confirmation.
+**Contribution:** Delivers the Basic AI MVP while preserving the
+Core MVP.
 
-**Contribution:** Delivers the Basic AI MVP while preserving the Core MVP.
+**Detailed planning record:** The proposed [Phase 4 Plan](phases/PHASE_4_PLAN.md)
+documents WP4-01 through WP4-08, dependencies, acceptance criteria, risks, and
+open owner decisions. It does not authorize implementation.
 
 ### P5 — Product Hardening and Installable Offline Experience
 
@@ -193,7 +205,11 @@ service-worker updates, recovery-point expectations, and support burden.
 workflows offline, recover according to the approved guarantee, and pass
 security, accessibility, performance, and regression checks.
 
-**Contribution:** Hardens Core MVP and Basic AI MVP for real-world use.
+  **Contribution:** Hardens Core MVP and Basic AI MVP for real-world use.
+
+  **Detailed planning record:** The proposed [Phase 5 Plan](phases/PHASE_5_PLAN.md)
+  documents WP5-01 through WP5-08, dependencies, acceptance criteria, risks, and
+  open owner decisions. It does not authorize implementation.
 
 ### P6 — Multi-User SaaS Readiness and Account Management
 
@@ -220,6 +236,10 @@ least privilege, isolate businesses and personal data, and pass security,
 recovery, and lifecycle tests.
 
 **Contribution:** Advances the long-term AI-enabled SaaS objective.
+
+**Detailed planning record:** The proposed [Phase 6 Plan](phases/PHASE_6_PLAN.md) documents WP6-01 through WP6-08, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
+
+**Detailed planning record:** The proposed [Phase 7 Plan](phases/PHASE_7_PLAN.md) documents WP7-01 through WP7-10, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
 
 ### P7 — Integrations, Automation, and Growth Capabilities
 

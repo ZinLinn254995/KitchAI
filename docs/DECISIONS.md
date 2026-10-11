@@ -54,6 +54,33 @@ This is a recommendation only. No framework, styling system, local database
 library, PWA plugin, cloud provider, or hosting provider has been approved or
 implemented.
 
+## Phase 3 Planning Decisions Pending Owner Approval
+
+The proposed Phase 3 plan is documented in [Phase 3 Plan](phases/PHASE_3_PLAN.md).
+Its decision register covers personal/business finance boundaries, sales
+discounts, correction semantics, report definitions, ambiguous expenses,
+historical categories, report scope, retention/recovery, and verification scope.
+All Phase 3 decisions remain OPEN unless an authoritative owner record approves
+them.
+
+## Phase 2 Planning Decisions Pending Owner Approval
+
+The proposed Phase 2 plan is documented in [Phase 2 Plan](phases/PHASE_2_PLAN.md).
+Its decision register covers business scope, money, units, lifecycle, purchase
+corrections, history, partial purchases, inventory scope, assets, observations,
+allocation, and evidence/release requirements. All Phase 2 decisions remain
+open unless an authoritative owner record explicitly approves them.
+
+## Phase 4 Planning Decisions Pending Owner Approval
+
+The proposed Phase 4 plan is documented in [Phase 4 Plan](phases/PHASE_4_PLAN.md).
+Its decision register covers Basic AI scenarios, authorized context, privacy and
+retention, confirmation before writes, quality and abstention thresholds,
+model/provider change control, cost/rate/latency limits, and offline/degraded
+behavior. D4-01 through D4-08 remain OPEN unless an authoritative owner record
+approves them. These decisions affect WP4-01 through WP4-08 and must not be
+implemented by inference.
+
 ## Phase 1 Planning Decisions Pending Owner Approval
 
 The proposed Phase 1 plan is documented in [Phase 1 Plan](phases/PHASE_1_PLAN.md).
@@ -65,6 +92,23 @@ returning offline access; deletion propagation, tombstones, recovery, and
 retention; browser/device support; and cloud test, CI, and production scope.
 Each decision matters to the listed work packages and requires evidence and
 explicit owner approval before implementation.
+
+## Phase 5 Planning Decisions Pending Owner Approval
+
+The proposed Phase 5 plan is documented in [Phase 5 Plan](phases/PHASE_5_PLAN.md).
+D5-01 through D5-09 remain OPEN unless an authoritative owner record approves them.
+They cover supported devices, install/update behavior, offline retention and
+storage limits, backup and restore, performance, accessibility, observability and
+privacy, security hardening, and release/rollback ownership. These decisions
+must not be implemented by inference.
+
+## Phase 6 Planning Decisions Pending Owner Approval
+
+The proposed Phase 6 plan is documented in [Phase 6 Plan](phases/PHASE_6_PLAN.md). D6-01 through D6-10 remain OPEN unless an authoritative owner record explicitly approves them. They cover whether collaboration is needed, account/profile controls, authentication and recovery, roles, invitations, ownership transfer, deletion/retention/recovery, support access, audit retention, and operational ownership. These decisions must not be implemented by inference.
+
+## Phase 7 Planning Decisions Pending Owner Approval
+
+The proposed Phase 7 plan is documented in [Phase 7 Plan](phases/PHASE_7_PLAN.md). D7-01 through D7-10 remain OPEN unless an authoritative owner record explicitly approves them. They cover integration priority and providers, external data ownership, canonical sources and conflicts, ordering/delivery event authority, import/export and recovery guarantees, automation limits, analytics definitions, additional AI workflows, and operational ownership. These decisions must not be implemented by inference.
 
 ## Unresolved Questions
 

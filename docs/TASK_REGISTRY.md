@@ -27,13 +27,26 @@ not pre-decompose provisional future phases.
 	breakdowns or coding prompts currently exist; P0.1–P0.6 history remains
 	complete and unchanged.
 
-No implementation phase is active and no approved phase breakdown exists. A
-proposed Phase 1 planning baseline is recorded in
-[Phase 1 Plan](phases/PHASE_1_PLAN.md); it is not owner-approved and creates no
-coding tasks or prompts. The cross-phase governance documentation update is
-complete; it has no phase/task ID and does not create P0.7. Its completion and
-checkpoint are recorded in [Project Status](../PROJECT_STATUS.md) and [AI Handoff](AI_HANDOFF.md).
-Owner-approved phase planning follows the [Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
+No implementation phase is active and no approved phase breakdown exists. Proposed
+Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, and Phase 7 planning baselines are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
+[Phase 2 Plan](phases/PHASE_2_PLAN.md), [Phase 3 Plan](phases/PHASE_3_PLAN.md),
+[Phase 4 Plan](phases/PHASE_4_PLAN.md), [Phase 5 Plan](phases/PHASE_5_PLAN.md),
+and [Phase 6 Plan](phases/PHASE_6_PLAN.md), and [Phase 7 Plan](phases/PHASE_7_PLAN.md).
+None is owner-approved and none creates coding tasks or prompts. The cross-phase
+governance documentation update is complete; it has no phase/task ID and does not
+create P0.7. Its completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)
+and [AI Handoff](AI_HANDOFF.md). Owner-approved phase planning follows the
+[Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
+
+### Proposed Phase 3 Planning Deliverable
+
+| ID | Work package | Status | Approval |
+| --- | --- | --- | --- |
+| P3-PLAN | Phase 3 planning baseline | Planned: documentation drafted; not implemented | Owner approval required |
+
+The proposed Phase 3 plan defines WP3-01 through WP3-08. They remain planned,
+not ready, because the phase and its material decisions are not owner-approved.
+No coding prompts exist for these WPs.
 
 ## Repeatable Coding Task Contract
 
