@@ -117,6 +117,10 @@ allocation are open.
 business data, purchases, recipes, and actual costs offline and online without
 breaking historical meaning or ownership boundaries.
 
+**Detailed planning record:** The proposed [Phase 2 Plan](phases/PHASE_2_PLAN.md)
+documents WP2-01 through WP2-10, dependencies, acceptance criteria, and open
+owner decisions. It does not authorize implementation.
+
 **Contribution:** Core MVP business foundation.
 
 ### P3 — Sales, Expenses, Reporting, and Finance Separation

@@ -54,6 +54,14 @@ This is a recommendation only. No framework, styling system, local database
 library, PWA plugin, cloud provider, or hosting provider has been approved or
 implemented.
 
+## Phase 2 Planning Decisions Pending Owner Approval
+
+The proposed Phase 2 plan is documented in [Phase 2 Plan](phases/PHASE_2_PLAN.md).
+Its decision register covers business scope, money, units, lifecycle, purchase
+corrections, history, partial purchases, inventory scope, assets, observations,
+allocation, and evidence/release requirements. All Phase 2 decisions remain
+open unless an authoritative owner record explicitly approves them.
+
 ## Phase 1 Planning Decisions Pending Owner Approval
 
 The proposed Phase 1 plan is documented in [Phase 1 Plan](phases/PHASE_1_PLAN.md).

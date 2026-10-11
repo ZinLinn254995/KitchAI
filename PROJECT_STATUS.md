@@ -25,6 +25,10 @@ stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
+Phase 2 planning documentation is proposed and documentation-only; it does not
+authorize implementation. The proposed [Phase 2 Plan](docs/phases/PHASE_2_PLAN.md)
+contains WP2-01 through WP2-10 and remains pending complete owner approval.
+
 P0.7 is an implementation-readiness audit only; it does not authorize
 implementation. The repository is not ready for application implementation.
 The root contains documentation and `.git` only;

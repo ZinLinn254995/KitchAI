@@ -29,8 +29,9 @@ not pre-decompose provisional future phases.
 
 No implementation phase is active and no approved phase breakdown exists. A
 proposed Phase 1 planning baseline is recorded in
-[Phase 1 Plan](phases/PHASE_1_PLAN.md); it is not owner-approved and creates no
-coding tasks or prompts. The cross-phase governance documentation update is
+[Phase 1 Plan](phases/PHASE_1_PLAN.md), and a proposed Phase 2 planning baseline
+is recorded in [Phase 2 Plan](phases/PHASE_2_PLAN.md); neither is owner-approved
+and neither creates coding tasks or prompts. The cross-phase governance documentation update is
 complete; it has no phase/task ID and does not create P0.7. Its completion and
 checkpoint are recorded in [Project Status](../PROJECT_STATUS.md) and [AI Handoff](AI_HANDOFF.md).
 Owner-approved phase planning follows the [Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
