@@ -81,17 +81,73 @@ behavior. D4-01 through D4-08 remain OPEN unless an authoritative owner record
 approves them. These decisions affect WP4-01 through WP4-08 and must not be
 implemented by inference.
 
-## Phase 1 Planning Decisions Pending Owner Approval
+## Phase 1 Planning Directions Selected by Owner — 2026-10-11
 
-The proposed Phase 1 plan is documented in [Phase 1 Plan](phases/PHASE_1_PLAN.md).
-The following remain unresolved and must not be treated as approved technical
-or business decisions: cloud backend/deployment; authentication/sign-in and
-account-management boundary; simple-record fields and validation; conflict
-review UI versus preservation/status only; first-time online setup versus
-returning offline access; deletion propagation, tombstones, recovery, and
-retention; browser/device support; and cloud test, CI, and production scope.
-Each decision matters to the listed work packages and requires evidence and
-explicit owner approval before implementation.
+The owner selected the following planning directions on 2026-10-11. These are
+canonical planning directions, not final provider or technology approvals, not
+approval of the complete Phase 1 plan, not authorization to implement, and not
+verified application behavior. Remaining details must be resolved and recorded
+before implementation.
+
+### D1-01 — Cloud backend
+
+Compare Supabase with suitable managed-backend alternatives before choosing a
+provider. Supabase remains a candidate, not an approved final provider. Compare
+capabilities, deployment and environment needs, security and access control,
+recovery, cost, migration, and exit considerations. Do not select by inference.
+
+### D1-02 — Authentication
+
+Phase 1 includes the minimum authentication/session foundation and
+server-enforced owner/business authorization required for secure cloud access.
+Defer full account-management UI, profile settings, and multi-user invitations.
+Open: sign-in method, session/token policy, expiry and revocation, credential
+handling, recovery boundary, and trusted-device behavior.
+
+### D1-03 — Minimal business record
+
+Use one minimal business-record type for the first vertical slice: stable record
+ID, business name, optional description, created-at and updated-at timestamps,
+owner ID, and lifecycle state. Field types, constraints, validation examples,
+update semantics, history, and archive/delete transitions remain open.
+
+### D1-04 — Conflict handling
+
+Detect concurrent edits, preserve both competing versions, and expose an
+inspectable conflict status/review path. Never silently overwrite a competing
+version or perform unapproved destructive or automatic resolution. Exact review
+UI, resolution semantics, authorization, and acceptance cases remain open.
+
+### D1-05 — First setup and offline access
+
+Require online connectivity for first setup/sign-in and ownership binding.
+Permit defined offline use on an already initialized device. Session
+expiry/revocation, device loss, local-data visibility, and offline-access
+boundaries remain open.
+
+### D1-06 — Data lifecycle and recovery
+
+Separate archive from deletion. Define tombstones where sync requires them,
+recovery/restore precedence, retention, backup guarantees, permanent-deletion
+authority, and privacy exceptions. Do not invent retention periods or promise
+recovery guarantees without approved design and evidence.
+
+### D1-07 — Browser/device support
+
+Target Web/PWA on desktop and mobile using a small, explicit, tested
+browser/device support matrix. Exact browser/OS versions, test devices, install
+expectations, storage/network assumptions, and test environments remain open.
+
+### D1-08 — Test/CI/production boundary
+
+Require isolated development and test/preview environments and appropriate CI
+checks. Production deployment remains out of Phase 1 unless separately approved.
+Define CI gates, test-data policy, secrets/logging rules, deployment authority,
+and rollback boundaries before implementation.
+
+The proposed [Phase 1 Plan](phases/PHASE_1_PLAN.md) remains not approved. The
+complete scope and all remaining material details require explicit owner
+approval before coding prompts or implementation.
 
 ## Phase 5 Planning Decisions Pending Owner Approval
 

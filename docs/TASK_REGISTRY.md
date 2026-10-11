@@ -33,7 +33,10 @@ Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, and Phase 8 plann
 [Phase 4 Plan](phases/PHASE_4_PLAN.md), [Phase 5 Plan](phases/PHASE_5_PLAN.md),
 [Phase 6 Plan](phases/PHASE_6_PLAN.md), [Phase 7 Plan](phases/PHASE_7_PLAN.md),
 and [Phase 8 Plan](phases/PHASE_8_PLAN.md).
-None is owner-approved and none creates coding tasks or prompts. The cross-phase
+None is owner-approved and none creates coding tasks or prompts. The eight
+Phase 1 planning directions D1-01 through D1-08 were selected by the owner on
+2026-10-11, but the complete Phase 1 scope and remaining material details are
+not approved. No Phase 1 coding task or prompt is authorized. The cross-phase
 governance documentation update is complete; it has no phase/task ID and does not
 create P0.7. Its completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)
 and [AI Handoff](AI_HANDOFF.md). Owner-approved phase planning follows the
