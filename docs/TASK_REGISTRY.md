@@ -58,6 +58,18 @@ with both-version preservation, and soft-delete with tombstones. Seven
 material decisions (O1–O7) require owner judgment. After owner acceptance,
 WP2–WP8 coding prompts will be created in dependency order.
 
+### Phase 1 Implementation Prompts (Planned)
+
+| ID | Work package | Prompt | Status | Approval |
+| --- | --- | --- | --- | --- |
+| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | Planned: prompt created; not implementation-ready | Owner acceptance of Phase 1 Approval Packet required |
+| P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | Planned: prompt created; not implementation-ready | Owner acceptance of Phase 1 Approval Packet required |
+
+These prompts are documentation only. They do not authorize implementation.
+After owner acceptance of the Phase 1 Approval Packet and resolution of
+material decisions O1–O7, these prompts become implementation-ready. WP4–WP8
+prompts will be created after WP2 and WP3 are implemented and verified.
+
 ### Proposed Phase 3 Planning Deliverable
 
 | ID | Work package | Status | Approval |

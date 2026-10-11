@@ -8,30 +8,30 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** Phase 1 Approval Packet created. The
-	[Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md) consolidates all
-	planning into one document with recommended technical decisions (Supabase
-	backend, email/password auth, RLS authorization, Dexie local persistence,
-	outbox sync, optimistic concurrency conflict handling, soft-delete with
-	tombstones) and seven material decisions marked OWNER DECISION REQUIRED.
-- **Last confirmed checkpoint:** Phase 1 Approval Packet created as
-	documentation. Repository contains documentation only; no application
-	source, config, schema, migration, or test files exist.
+- **Exact active task:** Phase 1 Approval Packet created and WP2/WP3
+	implementation prompts prepared. The [Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md)
+	consolidates all planning with recommended technical decisions. The
+	[WP2 prompt](prompts/P1-WP2.md) and [WP3 prompt](prompts/P1-WP3.md) are
+	created as documentation only — not implementation-ready.
+- **Last confirmed checkpoint:** Branch `phase-1-approval-packet`, commit
+	`034fc7d`. Repository contains documentation only; no application source,
+	config, schema, migration, or test files exist. Remote push blocked — no
+	GitHub authentication available in the environment.
 - **Incomplete work:** Owner must review and accept the Phase 1 Approval
 	Packet. Seven material decisions (O1–O7) require owner judgment:
 	permanent deletion/retention, privacy erasure, local encryption, offline
 	duration, Supabase Pro plan, additional browsers, production deployment.
-	After owner acceptance, coding prompts for WP2–WP8 must be created in
-	dependency order. Proposed Phase 1 through Phase 8 planning documents
-	remain pending owner approval.
+	After owner acceptance, WP2 and WP3 prompts become implementation-ready.
+	WP4–WP8 prompts will be created after WP2 and WP3 are implemented.
   - **Blockers:** Owner review and acceptance of the Phase 1 Approval Packet;
-	resolution of O1–O7 material decisions; then coding prompt creation
-	before implementation begins.
+	resolution of O1–O7 material decisions; GitHub authentication for remote
+	push.
 - **Next recommended action:** Owner reviews the
 	[Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md), resolves decisions
-	O1–O7, and accepts or revises the packet. Then create coding prompts for
-	WP2 (local persistence) and WP3 (auth/RLS) as the first implementation
-	tasks. Do not begin implementation until the owner accepts the packet.
+	O1–O7, and accepts or revises the packet. Then implement WP2
+	([prompt](prompts/P1-WP2.md)) and WP3 ([prompt](prompts/P1-WP3.md)) as the
+	first implementation tasks. Do not begin implementation until the owner
+	accepts the packet.
 
 
 ## Task
