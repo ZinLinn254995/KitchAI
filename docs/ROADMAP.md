@@ -147,6 +147,10 @@ treatment require owner decisions.
 records separate, preserve transaction history, calculate only supported actual
 values, and produce validated reports.
 
+**Detailed planning record:** The proposed [Phase 3 Plan](phases/PHASE_3_PLAN.md)
+documents WP3-01 through WP3-08, dependencies, acceptance criteria, and open
+owner decisions. It does not authorize implementation.
+
 **Contribution:** Completes the Core MVP operating loop.
 
 ### P4 — Basic AI Assistant

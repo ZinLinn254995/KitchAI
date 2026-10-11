@@ -54,6 +54,15 @@ This is a recommendation only. No framework, styling system, local database
 library, PWA plugin, cloud provider, or hosting provider has been approved or
 implemented.
 
+## Phase 3 Planning Decisions Pending Owner Approval
+
+The proposed Phase 3 plan is documented in [Phase 3 Plan](phases/PHASE_3_PLAN.md).
+Its decision register covers personal/business finance boundaries, sales
+discounts, correction semantics, report definitions, ambiguous expenses,
+historical categories, report scope, retention/recovery, and verification scope.
+All Phase 3 decisions remain OPEN unless an authoritative owner record approves
+them.
+
 ## Phase 2 Planning Decisions Pending Owner Approval
 
 The proposed Phase 2 plan is documented in [Phase 2 Plan](phases/PHASE_2_PLAN.md).
