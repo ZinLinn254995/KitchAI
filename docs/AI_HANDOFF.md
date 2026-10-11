@@ -24,13 +24,14 @@ Phase 1 through Phase 7 planning documents are recorded in [Phase 1 Plan](phases
   - **Blockers:** Complete owner approval of earlier phases before implementation,
   then review and approve the complete proposed phase scope and material decisions
   before any implementation.
-- **Next recommended action:** Record and review owner-selected Phase 1
-planning directions D1-01 through D1-08 dated 2026-10-11. Remaining blockers are
-provider comparison, auth/session details, record constraints, conflict review,
-offline/device boundaries, lifecycle/recovery policy, browser/device matrix,
-and CI/test/production boundaries. Do not create implementation prompts or
-start coding until the owner approves the complete Phase 1 scope, exclusions,
-material details, dependencies, and acceptance criteria.
+- **Next recommended action:** Review the WP-01 [decision packet](PHASE_1_WP1_DECISION_PACKET.md)
+and [acceptance matrix](PHASE_1_ACCEPTANCE_MATRIX.md) alongside the backend
+evaluation. Remaining blockers are provider comparison evidence, auth/session
+details, record constraints, conflict review, offline/device boundaries,
+lifecycle/recovery policy, browser/device matrix, CI/test/production boundaries,
+and criterion-level evidence. Do not create implementation prompts or start
+coding until the owner approves the complete Phase 1 scope, exclusions, material
+details, dependencies, and acceptance criteria.
 
 
 ## Task
