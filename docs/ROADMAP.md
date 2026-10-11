@@ -266,6 +266,8 @@ clear failure/recovery path.
 **Contribution:** Extends the long-term AI-enabled SaaS product and future
 Table Tap/ordering direction.
 
+**Detailed planning record:** The proposed [Phase 7 Plan](phases/PHASE_7_PLAN.md) documents WP7-01 through WP7-10, dependencies, acceptance criteria, risks, and open owner decisions. It does not authorize implementation.
+
 ### P8 — Final Cross-Phase Readiness and Maintenance Boundary
 
 **Purpose and outcomes:** Audit the evidence from P1–P7, reconcile cross-phase data, security, recovery, quality, and operational contracts, and present an owner-controlled release boundary and maintenance plan for selected capabilities.
