@@ -62,7 +62,7 @@ WP2–WP8 coding prompts will be created in dependency order.
 
 | ID | Work package | Prompt | Status | Approval |
 | --- | --- | --- | --- | --- |
-| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | Planned: prompt created; not implementation-ready | Owner acceptance of Phase 1 Approval Packet required |
+| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | Implemented and verified locally (typecheck, 28 unit tests, build, browser flow) under the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md); on checkpoint branch pending review | Owner review/merge of checkpoint branch; O1–O7 remain open |
 | P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | Planned: prompt created; not implementation-ready | Owner acceptance of Phase 1 Approval Packet required |
 
 These prompts are documentation only. They do not authorize implementation.

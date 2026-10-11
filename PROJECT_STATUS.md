@@ -2,6 +2,25 @@
 
 **Last updated:** 2026-10-11
 
+## P1-WP2 Local Data Foundation — implemented
+
+Under the [limited execution authorization](docs/PHASE_1_EXECUTION_AUTHORIZATION.md),
+P1-WP2 is **implemented** and **verified locally**:
+
+- Vite + React + TypeScript scaffold with Dexie/IndexedDB persistence
+  (`src/db/`), a Business record with create, edit, archive, restore, and
+  soft delete (tombstone retained, no purge), shared validation, and an
+  outbox that records each mutation atomically with the record and recovers
+  interrupted operations at startup.
+- Minimal development UI (`src/app/`) showing active/archived/deleted views,
+  pending-sync state, and storage/validation errors.
+- **Checks:** `tsc --noEmit` clean; `vitest` 28/28 passing (fake-indexeddb);
+  `vite build` succeeds; browser flow exercised (validation error, create,
+  edit, archive, restore, delete, reload persistence).
+- **Not done / out of scope:** cloud sync, Supabase, authentication (WP3),
+  conflict UI, production deployment. O1–O7 remain open. Statements in the
+  sections below that say no application code exists predate this work.
+
 ## Phase 1 approval packet — planning consolidation
 
 The owner authorized ChatGPT to make and recommend technical planning
