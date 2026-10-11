@@ -27,19 +27,23 @@ not pre-decompose provisional future phases.
 	breakdowns or coding prompts currently exist; P0.1–P0.6 history remains
 	complete and unchanged.
 
-No implementation phase is active and no approved phase breakdown exists. Proposed
+Phase 1 has one authorized coding task: P1-WP2, implemented under the
+[limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md). No
+other phase or task is authorized, and no full phase breakdown is
+owner-approved. Proposed
 Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, and Phase 8 planning baselines are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
 [Phase 2 Plan](phases/PHASE_2_PLAN.md), [Phase 3 Plan](phases/PHASE_3_PLAN.md),
 [Phase 4 Plan](phases/PHASE_4_PLAN.md), [Phase 5 Plan](phases/PHASE_5_PLAN.md),
 [Phase 6 Plan](phases/PHASE_6_PLAN.md), [Phase 7 Plan](phases/PHASE_7_PLAN.md),
 and [Phase 8 Plan](phases/PHASE_8_PLAN.md).
-None is owner-approved and none creates coding tasks or prompts. The eight
+None is owner-approved as a whole. The eight
 Phase 1 planning directions D1-01 through D1-08 were selected by the owner on
 2026-10-11. The [Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md)
 consolidates planning with recommended technical decisions and seven material
-decisions marked OWNER DECISION REQUIRED (O1–O7). The packet does not
-authorize implementation; owner review and acceptance is required. No Phase 1
-coding task or prompt is authorized. The cross-phase governance documentation
+decisions marked OWNER DECISION REQUIRED (O1–O7). The packet itself does not
+authorize implementation. Only P1-WP2 is authorized for coding, by the
+separate limited execution authorization; P1-WP3 and later remain
+unauthorized. The cross-phase governance documentation
 update is complete; it has no phase/task ID and does not create P0.7. Its
 completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)
 and [AI Handoff](AI_HANDOFF.md). Owner-approved phase planning follows the
@@ -58,17 +62,16 @@ with both-version preservation, and soft-delete with tombstones. Seven
 material decisions (O1–O7) require owner judgment. After owner acceptance,
 WP2–WP8 coding prompts will be created in dependency order.
 
-### Phase 1 Implementation Prompts (Planned)
+### Phase 1 Implementation Prompts
 
 | ID | Work package | Prompt | Status | Approval |
 | --- | --- | --- | --- | --- |
-| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | Implemented and verified locally (typecheck, 28 unit tests, build, browser flow) under the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md); on checkpoint branch pending review | Owner review/merge of checkpoint branch; O1–O7 remain open |
-| P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | Planned: prompt created; not implementation-ready | Owner acceptance of Phase 1 Approval Packet required |
+| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | **Implemented** and **verified locally** (typecheck, 28 unit tests, build, browser flow); commit `acc5fe6` on `v0/p1-wp2-local-data-foundation`; not merged to `main` | Authorized by the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md); owner review/merge pending; O1–O7 remain open |
+| P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | **Planned**: prompt created; not started; not implementation-ready | Requires separate owner authorization |
 
-These prompts are documentation only. They do not authorize implementation.
-After owner acceptance of the Phase 1 Approval Packet and resolution of
-material decisions O1–O7, these prompts become implementation-ready. WP4–WP8
-prompts will be created after WP2 and WP3 are implemented and verified.
+The P1-WP2 prompt was authorized and has been implemented. The P1-WP3 prompt
+is documentation only and does not authorize implementation. WP4–WP8 prompts
+will be created after WP2 and WP3 are implemented and verified.
 
 ### Proposed Phase 3 Planning Deliverable
 
@@ -78,7 +81,8 @@ prompts will be created after WP2 and WP3 are implemented and verified.
 
 The proposed Phase 3 plan defines WP3-01 through WP3-08. They remain planned,
 not ready, because the phase and its material decisions are not owner-approved.
-No coding prompts exist for these WPs.
+No coding prompts exist for the Phase 3 WPs (WP3-01 through WP3-08); these are
+distinct from the Phase 1 work package P1-WP3.
 
 ## Repeatable Coding Task Contract
 
@@ -115,7 +119,7 @@ them without a concrete discrepancy.
 | P0.4 | WP0.4 Technical foundation | Record confirmed architecture principles and provisional stack recommendation | Complete: implemented, locally verified, and pushed to origin/main |
 | P0.5 | WP0.5 Data model foundation | Document conceptual relationships and historical-record protection | Complete: documentation implemented, locally verified, and pushed to origin/main |
 | P0.6 | WP0.6 Decision readiness | Organize remaining foundation decisions with recommendations and owner-approval gates | Complete: implemented, locally verified, and pushed to origin/main |
-| P0.7 | WP0.7 Implementation readiness audit | Assess documented and repository evidence for implementation readiness | Complete: audit documented, locally verified, and pushed to origin/main; application is not implementation-ready |
+| P0.7 | WP0.7 Implementation readiness audit | Assess documented and repository evidence for implementation readiness | Complete: audit documented, locally verified, and pushed to origin/main; at audit time (historical) the application was not implementation-ready |
 
 Update task status only when evidence supports it. Project-wide implementation
 and verification state belongs in [project status](../PROJECT_STATUS.md).

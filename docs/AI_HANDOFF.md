@@ -10,9 +10,11 @@ into task handoffs.
 
 - **Exact active task:** P1-WP2 Local Data Foundation — implemented and
 	verified locally under the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md).
-- **Last confirmed checkpoint:** Checkpoint branch
-	`v0/p1-wp2-local-data-foundation` (pushed by v0; see Git activity for the
-	commit). `main` is unchanged; merge requires owner review.
+- **Last confirmed checkpoint:** Branch `v0/p1-wp2-local-data-foundation`,
+	implementation commit `acc5fe6` (pushed), followed by a documentation-only
+	correction commit on the same branch. `main` is unchanged at `14f4d99`.
+- **Merge state:** Not merged. Review is via a pull request from the WP2
+	branch to `main`; merge requires owner review.
 - **Checks run:** `npx tsc --noEmit` clean; `npx vitest run` 28/28 pass;
 	`npx vite build` succeeds; manual browser flow (validation, create, edit,
 	archive, restore, delete, reload persistence) passed.
@@ -20,9 +22,10 @@ into task handoffs.
 	OWNER DECISION REQUIRED. WP3 (identity/access) is not started and still
 	needs its own authorization.
 - **Blockers:** Owner acceptance of the remaining Phase 1 packet scope for WP3+.
-- **Next recommended action:** Review and merge the WP2 branch, then authorize
-	WP3 ([prompt](prompts/P1-WP3.md)). Do not add sync, auth, or Supabase work
-	under the WP2 authorization.
+- **Next authorized action:** Owner review and merge of the WP2 pull request.
+	WP3 ([prompt](prompts/P1-WP3.md)) is not authorized and must not start
+	until the owner authorizes it separately. Do not add sync, auth, Supabase,
+	permanent deletion, or deployment work under the WP2 authorization.
 
 
 ## Task

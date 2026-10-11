@@ -2,9 +2,9 @@
 
 **Task ID:** P1-WP2
 **Parent:** Phase 1, WP2
-**Status:** Planned — not implementation-ready until owner accepts the [Phase 1 Approval Packet](../PHASE_1_APPROVAL_PACKET.md)
+**Status:** Implemented and verified locally under the [Phase 1 limited execution authorization](../PHASE_1_EXECUTION_AUTHORIZATION.md); implementation commit `acc5fe6` on branch `v0/p1-wp2-local-data-foundation`; not yet merged to `main` (pending owner review). O1–O7 remain open.
 **Execution mode:** COMMIT_PUSH_REQUIRED (after validation)
-**Prerequisites:** Owner acceptance of Phase 1 Approval Packet; WP1 complete
+**Prerequisites:** WP1 complete; execution authorized by the limited execution authorization above (satisfied)
 
 ## Objective
 
