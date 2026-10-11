@@ -23,9 +23,9 @@ not pre-decompose provisional future phases.
 	status, and checkpoint evidence. Detailed behavior stays in the approved
 	phase plan and canonical product documents.
 - Task prompts are created only for approved tasks at
-	`docs/prompts/<TASK_ID>.md` and linked here or from the phase plan. No phase
-	breakdowns or coding prompts currently exist; P0.1–P0.6 history remains
-	complete and unchanged.
+`docs/prompts/<TASK_ID>.md` and linked here or from the phase plan. No
+owner-approved phase breakdown exists; the only coding prompts are P1-WP2 and
+P1-WP3, listed below. P0.1–P0.6 history remains complete and unchanged.
 
 Phase 1 has one authorized coding task: P1-WP2, implemented under the
 [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md). No
@@ -59,19 +59,24 @@ The Phase 1 Approval Packet recommends Supabase as backend, email/password
 auth, RLS authorization, Dexie/IndexedDB local persistence, outbox-pattern
 sync with idempotent operations, optimistic concurrency conflict handling
 with both-version preservation, and soft-delete with tombstones. Seven
-material decisions (O1–O7) require owner judgment. After owner acceptance,
-WP2–WP8 coding prompts will be created in dependency order.
+material decisions (O1–O7) require owner judgment and remain OWNER DECISION
+REQUIRED. The packet is not an implementation authorization. P1-WP2 was
+implemented under a separate limited execution authorization and is verified
+locally, with merge pending. P1-WP3 has not started and requires separate
+owner authorization. WP4–WP8 are not authorized, and no coding prompts exist
+for them.
 
 ### Phase 1 Implementation Prompts
 
 | ID | Work package | Prompt | Status | Approval |
 | --- | --- | --- | --- | --- |
-| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | **Implemented** and **verified locally** (typecheck, 28 unit tests, build, browser flow); commit `acc5fe6` on `v0/p1-wp2-local-data-foundation`; not merged to `main` | Authorized by the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md); owner review/merge pending; O1–O7 remain open |
-| P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | **Planned**: prompt created; not started; not implementation-ready | Requires separate owner authorization |
+| P1-WP2 | Local Data Foundation | [P1-WP2 prompt](prompts/P1-WP2.md) | **Implemented** and **verified locally** (typecheck, 28 unit tests, build, browser flow); commit `acc5fe6` on `v0/p1-wp2-local-data-foundation`; merge pending (PR #7, not merged to `main`) | Authorized by the [limited execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md); owner review/merge pending; O1–O7 remain open |
+| P1-WP3 | Identity and Access-Control Foundation | [P1-WP3 prompt](prompts/P1-WP3.md) | **Not started**: prompt created (documentation only); not implementation-ready | Separate owner authorization required |
 
-The P1-WP2 prompt was authorized and has been implemented. The P1-WP3 prompt
-is documentation only and does not authorize implementation. WP4–WP8 prompts
-will be created after WP2 and WP3 are implemented and verified.
+The P1-WP2 prompt was authorized and has been implemented; merge is pending.
+The P1-WP3 prompt is documentation only and does not authorize implementation.
+WP4–WP8 have no prompts and no authorization; any future prompts require the
+dependency order and separate owner approval.
 
 ### Proposed Phase 3 Planning Deliverable
 
