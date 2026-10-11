@@ -17,16 +17,16 @@
   passed. P0.6 decision coverage, approval labeling, link, status, scope, and
   whitespace checks passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases; the proposed Phase 1 breakdown is pending complete owner approval;
-  no coding task is currently ready.
+  phases; the proposed Phase 1 through Phase 7 breakdowns are pending complete
+  owner approval; no coding task is currently ready.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-Phase 5 planning documentation is proposed and documentation-only; it does not
-  authorize implementation. The proposed [Phase 5 Plan](docs/phases/PHASE_5_PLAN.md)
+Phase 5 through Phase 7 planning documentation is proposed and documentation-only;
+  it does not authorize implementation. The proposed [Phase 5 Plan](docs/phases/PHASE_5_PLAN.md)
   contains WP5-01 through WP5-08 and remains proposed / not approved. The proposed
   [Phase 6 Plan](docs/phases/PHASE_6_PLAN.md) contains WP6-01 through WP6-08 and
   remains proposed / not approved. Proposed Phase 1 through Phase 5 planning
