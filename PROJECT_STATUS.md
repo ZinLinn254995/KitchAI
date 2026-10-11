@@ -1,6 +1,14 @@
 # Project Status
 
-**Last updated:** 2026-10-10
+**Last updated:** 2026-10-11
+
+## Documentation-only planning checkpoint
+
+The owner selected Phase 1 planning directions D1-01 through D1-08 on
+2026-10-11. The complete Phase 1 scope, remaining material details, and
+implementation authorization remain unapproved. Application implementation,
+schemas, migrations, infrastructure, and runtime behavior remain unstarted.
+
 
 ## Current State
 

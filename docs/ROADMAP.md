@@ -79,9 +79,18 @@ advanced AI, or final integration catalog.
 plan, and owner decisions needed for identity, ownership boundaries, local
 persistence, synchronization, conflict, recovery, and security behavior.
 
-**Risks and unresolved decisions:** Final stack and cloud provider, offline
-retention and recovery guarantees, conflict semantics, deletion propagation,
-credential/session policy, and the exact vertical slice remain unresolved.
+**Planning directions selected by owner (2026-10-11):** D1-01 through D1-08
+are recorded in [Decisions](DECISIONS.md): compare backend candidates; provide
+minimum auth/session and server-enforced ownership authorization; use the
+minimal business record; preserve competing conflict versions; require online
+first setup with defined returning offline access; separate archive/deletion
+with explicit recovery/lifecycle policy; target a tested desktop/mobile Web/PWA
+matrix; and isolate CI/test/preview from production.
+
+**Risks and unresolved decisions:** Provider, auth details, lifecycle and
+retention guarantees, conflict review semantics, browser/device matrix, CI
+boundary, and exact acceptance contracts remain unresolved. These directions
+do not approve Phase 1 or authorize implementation.
 
 **Completion criteria:** The approved vertical slice is usable offline,
 persists safely locally, authenticates cloud access, enforces business-level
