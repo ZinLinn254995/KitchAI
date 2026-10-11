@@ -176,8 +176,12 @@ UX remain open.
 **Completion criteria:** Basic AI scenarios meet approved quality checks,
 respect access boundaries, disclose uncertainty, and cannot save financial
 changes without the required validation and user confirmation.
+**Contribution:** Delivers the Basic AI MVP while preserving the
+Core MVP.
 
-**Contribution:** Delivers the Basic AI MVP while preserving the Core MVP.
+**Detailed planning record:** The proposed [Phase 4 Plan](phases/PHASE_4_PLAN.md)
+documents WP4-01 through WP4-08, dependencies, acceptance criteria, risks, and
+open owner decisions. It does not authorize implementation.
 
 ### P5 — Product Hardening and Installable Offline Experience
 

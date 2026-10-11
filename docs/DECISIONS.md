@@ -71,6 +71,16 @@ corrections, history, partial purchases, inventory scope, assets, observations,
 allocation, and evidence/release requirements. All Phase 2 decisions remain
 open unless an authoritative owner record explicitly approves them.
 
+## Phase 4 Planning Decisions Pending Owner Approval
+
+The proposed Phase 4 plan is documented in [Phase 4 Plan](phases/PHASE_4_PLAN.md).
+Its decision register covers Basic AI scenarios, authorized context, privacy and
+retention, confirmation before writes, quality and abstention thresholds,
+model/provider change control, cost/rate/latency limits, and offline/degraded
+behavior. D4-01 through D4-08 remain OPEN unless an authoritative owner record
+approves them. These decisions affect WP4-01 through WP4-08 and must not be
+implemented by inference.
+
 ## Phase 1 Planning Decisions Pending Owner Approval
 
 The proposed Phase 1 plan is documented in [Phase 1 Plan](phases/PHASE_1_PLAN.md).

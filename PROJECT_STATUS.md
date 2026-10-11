@@ -28,7 +28,9 @@ stated check, and incomplete work remains unfinished or unchecked.
 Phase 3 planning documentation is proposed and documentation-only; it does not
 authorize implementation. The proposed [Phase 3 Plan](docs/phases/PHASE_3_PLAN.md)
 contains WP3-01 through WP3-08 and remains pending complete owner approval.
-Phase 2 planning documentation remains proposed and pending owner approval.
+The proposed [Phase 4 Plan](docs/phases/PHASE_4_PLAN.md) contains WP4-01
+through WP4-08 and remains proposed / not approved. Phase 2 planning
+documentation remains proposed and pending owner approval.
 
 P0.7 is an implementation-readiness audit only; it does not authorize
 implementation. The repository is not ready for application implementation.

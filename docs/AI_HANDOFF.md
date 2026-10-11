@@ -14,10 +14,10 @@ into task handoffs.
 	`origin/main` after the P0.7 audit. The inspected repository contains no
 	application source, config, schema, migration, or test files.
 - **Incomplete work:** Application implementation remains unstarted. Proposed
-  Phase 1, Phase 2, and Phase 3 planning documents are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
-  [Phase 2 Plan](phases/PHASE_2_PLAN.md), and [Phase 3 Plan](phases/PHASE_3_PLAN.md),
-  but none is owner-approved; no coding task is ready and the stack remains
-  provisional.
+  Phase 1, Phase 2, Phase 3, and Phase 4 planning documents are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
+  [Phase 2 Plan](phases/PHASE_2_PLAN.md), [Phase 3 Plan](phases/PHASE_3_PLAN.md),
+  and [Phase 4 Plan](phases/PHASE_4_PLAN.md), but none is owner-approved; no
+  coding task is ready and the stack remains provisional.
 - **Blockers:** Complete owner approval of earlier phases before implementation,
   then review and approve the complete Phase 3 scope and material decisions
   before Phase 3 implementation.
