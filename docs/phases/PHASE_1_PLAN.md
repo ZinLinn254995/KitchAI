@@ -91,6 +91,13 @@ Phase 1 is not approved or complete until the owner approves the complete scope 
 
 Prompt AI and the owner collaboratively review this proposed structure, resolve material decisions, and approve or revise the complete Phase 1 plan. Until then, no Phase 1 implementation task is authorized.
 
+## WP-01 Decision Artifacts
+
+The WP-01 planning packet and acceptance matrix document the backend comparison, proposed contracts, evidence requirements, and owner gates. They do not select a provider, approve Phase 1, or authorize implementation.
+
+- [WP-01 Decision Packet](../PHASE_1_WP1_DECISION_PACKET.md)
+- [Phase 1 Acceptance Matrix](../PHASE_1_ACCEPTANCE_MATRIX.md)
+
 ## Related Records
 
 - [Roadmap](../ROADMAP.md)
