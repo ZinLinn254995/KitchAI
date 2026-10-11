@@ -2,12 +2,19 @@
 
 **Last updated:** 2026-10-11
 
-## Documentation-only planning checkpoint
+## Phase 1 approval packet — planning consolidation
 
-The owner selected Phase 1 planning directions D1-01 through D1-08 on
-2026-10-11. The complete Phase 1 scope, remaining material details, and
-implementation authorization remain unapproved. Application implementation,
-schemas, migrations, infrastructure, and runtime behavior remain unstarted.
+The owner authorized ChatGPT to make and recommend technical planning
+decisions on their behalf. A consolidated [Phase 1 Approval Packet](docs/PHASE_1_APPROVAL_PACKET.md)
+has been created with recommended decisions for backend provider (Supabase),
+authentication, authorization, local persistence, sync, conflict handling,
+lifecycle, browser matrix, and CI. Seven material decisions requiring owner
+judgment (permanent deletion, privacy erasure, local encryption, offline
+duration, Supabase Pro plan, additional browsers, production deployment)
+remain explicitly marked as OWNER DECISION REQUIRED. The packet does not
+authorize implementation; owner review and acceptance is required before
+coding tasks are created. Application implementation, schemas, migrations,
+infrastructure, and runtime behavior remain unstarted.
 
 
 ## Current State
@@ -33,7 +40,22 @@ stated check, and incomplete work remains unfinished or unchecked.
 
 ## Current Task
 
-Phase 5 through Phase 8 planning documentation is proposed and documentation-only;
+The [Phase 1 Approval Packet](docs/PHASE_1_APPROVAL_PACKET.md) consolidates
+Phase 1 planning into one document with recommended technical decisions and
+owner gates. It covers all 13 required sections: objective/scope, backend
+comparison (Supabase recommended), identity/session/authz model, minimal
+record contract, local persistence, sync/retry/idempotency, conflict
+detection/preservation/resolution, lifecycle/archive/deletion/tombstones,
+browser/device matrix, CI/environments/secrets, acceptance matrix (P1-A01
+through P1-A13), WP1–WP8 readiness, and risks/assumptions/decision record.
+
+Seven material decisions remain OWNER DECISION REQUIRED: permanent deletion
+and tombstone retention (O1), privacy-related erasure (O2), local data
+encryption (O3), maximum offline duration (O4), Supabase Pro plan (O5),
+additional browser requirements (O6), and production deployment authorization
+(O7). These cannot be resolved by technical recommendation alone.
+
+Phase 5 through Phase 8 planning documentation remains proposed and documentation-only;
   it does not authorize implementation. The proposed [Phase 5 Plan](docs/phases/PHASE_5_PLAN.md)
   contains WP5-01 through WP5-08 and remains proposed / not approved. The proposed
   [Phase 6 Plan](docs/phases/PHASE_6_PLAN.md) contains WP6-01 through WP6-08 and

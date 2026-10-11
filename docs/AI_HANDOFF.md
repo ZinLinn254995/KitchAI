@@ -8,30 +8,30 @@ into task handoffs.
 
 ## Current Project Handoff
 
-- **Exact active task:** No task is active. P0.7, Implementation Readiness
-	Audit, is complete, documentation-only, locally verified, and pushed.
-- **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
-	`origin/main` after the P0.7 audit. The inspected repository contains no
-	application source, config, schema, migration, or test files.
-- **Incomplete work:** Application implementation remains unstarted. Proposed
-Phase 1 through Phase 7 planning documents are recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md),
-  [Phase 2 Plan](phases/PHASE_2_PLAN.md), [Phase 3 Plan](phases/PHASE_3_PLAN.md),
-  [Phase 4 Plan](phases/PHASE_4_PLAN.md), [Phase 5 Plan](phases/PHASE_5_PLAN.md),
-  [Phase 6 Plan](phases/PHASE_6_PLAN.md), [Phase 7 Plan](phases/PHASE_7_PLAN.md),
-  and [Phase 8 Plan](phases/PHASE_8_PLAN.md), but none is owner-approved; no
-  coding task is ready and the stack remains
-  provisional.
-  - **Blockers:** Complete owner approval of earlier phases before implementation,
-  then review and approve the complete proposed phase scope and material decisions
-  before any implementation.
-- **Next recommended action:** Review the WP-01 [decision packet](PHASE_1_WP1_DECISION_PACKET.md)
-and [acceptance matrix](PHASE_1_ACCEPTANCE_MATRIX.md) alongside the backend
-evaluation. Remaining blockers are provider comparison evidence, auth/session
-details, record constraints, conflict review, offline/device boundaries,
-lifecycle/recovery policy, browser/device matrix, CI/test/production boundaries,
-and criterion-level evidence. Do not create implementation prompts or start
-coding until the owner approves the complete Phase 1 scope, exclusions, material
-details, dependencies, and acceptance criteria.
+- **Exact active task:** Phase 1 Approval Packet created. The
+	[Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md) consolidates all
+	planning into one document with recommended technical decisions (Supabase
+	backend, email/password auth, RLS authorization, Dexie local persistence,
+	outbox sync, optimistic concurrency conflict handling, soft-delete with
+	tombstones) and seven material decisions marked OWNER DECISION REQUIRED.
+- **Last confirmed checkpoint:** Phase 1 Approval Packet created as
+	documentation. Repository contains documentation only; no application
+	source, config, schema, migration, or test files exist.
+- **Incomplete work:** Owner must review and accept the Phase 1 Approval
+	Packet. Seven material decisions (O1–O7) require owner judgment:
+	permanent deletion/retention, privacy erasure, local encryption, offline
+	duration, Supabase Pro plan, additional browsers, production deployment.
+	After owner acceptance, coding prompts for WP2–WP8 must be created in
+	dependency order. Proposed Phase 1 through Phase 8 planning documents
+	remain pending owner approval.
+  - **Blockers:** Owner review and acceptance of the Phase 1 Approval Packet;
+	resolution of O1–O7 material decisions; then coding prompt creation
+	before implementation begins.
+- **Next recommended action:** Owner reviews the
+	[Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md), resolves decisions
+	O1–O7, and accepts or revises the packet. Then create coding prompts for
+	WP2 (local persistence) and WP3 (auth/RLS) as the first implementation
+	tasks. Do not begin implementation until the owner accepts the packet.
 
 
 ## Task

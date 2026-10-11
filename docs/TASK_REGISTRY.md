@@ -35,12 +35,28 @@ Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Phase 6, Phase 7, and Phase 8 plann
 and [Phase 8 Plan](phases/PHASE_8_PLAN.md).
 None is owner-approved and none creates coding tasks or prompts. The eight
 Phase 1 planning directions D1-01 through D1-08 were selected by the owner on
-2026-10-11, but the complete Phase 1 scope and remaining material details are
-not approved. No Phase 1 coding task or prompt is authorized. The cross-phase
-governance documentation update is complete; it has no phase/task ID and does not
-create P0.7. Its completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)
+2026-10-11. The [Phase 1 Approval Packet](PHASE_1_APPROVAL_PACKET.md)
+consolidates planning with recommended technical decisions and seven material
+decisions marked OWNER DECISION REQUIRED (O1–O7). The packet does not
+authorize implementation; owner review and acceptance is required. No Phase 1
+coding task or prompt is authorized. The cross-phase governance documentation
+update is complete; it has no phase/task ID and does not create P0.7. Its
+completion and checkpoint are recorded in [Project Status](../PROJECT_STATUS.md)
 and [AI Handoff](AI_HANDOFF.md). Owner-approved phase planning follows the
 [Prompt AI workflow](PROMPT_AI_WORKFLOW.md).
+
+### Phase 1 Approval Packet
+
+| ID | Work package | Status | Approval |
+| --- | --- | --- | --- |
+| P1-PACKET | Phase 1 approval packet (WP1 consolidation) | Planned: documentation created; not implemented | Owner review and acceptance required |
+
+The Phase 1 Approval Packet recommends Supabase as backend, email/password
+auth, RLS authorization, Dexie/IndexedDB local persistence, outbox-pattern
+sync with idempotent operations, optimistic concurrency conflict handling
+with both-version preservation, and soft-delete with tombstones. Seven
+material decisions (O1–O7) require owner judgment. After owner acceptance,
+WP2–WP8 coding prompts will be created in dependency order.
 
 ### Proposed Phase 3 Planning Deliverable
 
