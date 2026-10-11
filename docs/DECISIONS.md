@@ -110,6 +110,10 @@ The proposed Phase 6 plan is documented in [Phase 6 Plan](phases/PHASE_6_PLAN.md
 
 The proposed Phase 7 plan is documented in [Phase 7 Plan](phases/PHASE_7_PLAN.md). D7-01 through D7-10 remain OPEN unless an authoritative owner record explicitly approves them. They cover integration priority and providers, external data ownership, canonical sources and conflicts, ordering/delivery event authority, import/export and recovery guarantees, automation limits, analytics definitions, additional AI workflows, and operational ownership. These decisions must not be implemented by inference.
 
+## Phase 8 Planning Decisions Pending Owner Approval
+
+The proposed Phase 8 plan is documented in [Phase 8 Plan](phases/PHASE_8_PLAN.md). D8-01 through D8-07 remain OPEN unless an authoritative owner record explicitly approves them. They cover final evidence thresholds, cross-phase compatibility proof, operational ownership, security/privacy exceptions, supported quality targets, release boundary, and maintenance or deprecation of selected Phase 7 capabilities. These decisions must not be resolved by inference.
+
 ## Unresolved Questions
 
 Recommendations below are proposals for owner review, not confirmed decisions.

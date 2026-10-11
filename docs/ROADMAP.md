@@ -268,6 +268,20 @@ clear failure/recovery path.
 **Contribution:** Extends the long-term AI-enabled SaaS product and future
 Table Tap/ordering direction.
 
+### P8 — Final Cross-Phase Readiness and Maintenance Boundary
+
+**Purpose and outcomes:** Audit the evidence from P1–P7, reconcile cross-phase data, security, recovery, quality, and operational contracts, and present an owner-controlled release boundary and maintenance plan for selected capabilities.
+
+**Non-goals:** New product scope, Phase 9, automatic production-readiness claims, or treating proposed/unverified earlier phases as complete.
+
+**Dependencies:** Evidence that applicable P1–P7 work is owner-approved, implemented, and verified; supported test environments; selected integration contracts; and owner approval of Phase 8 decisions.
+
+**Completion criteria:** Every claim is evidence-backed or labeled incomplete/proposed; critical integrity, authorization, privacy, recovery, security, accessibility, performance, and regression checks are recorded; operational owners and deferred scope are explicit; and the owner records a release boundary without conflating it with automatic production readiness.
+
+**Detailed planning record:** The proposed [Phase 8 Plan](phases/PHASE_8_PLAN.md) documents WP8-01 through WP8-07 and remains proposed / not approved. It does not authorize implementation.
+
+**Contribution:** Establishes a final evidence and maintenance boundary for the currently proposed roadmap; it does not guarantee commercial launch or production readiness.
+
 ## Planning and Execution Workflow
 
 1. Establish and document this proposed project-wide roadmap.
