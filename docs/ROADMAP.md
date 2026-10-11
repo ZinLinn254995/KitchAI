@@ -205,7 +205,11 @@ service-worker updates, recovery-point expectations, and support burden.
 workflows offline, recover according to the approved guarantee, and pass
 security, accessibility, performance, and regression checks.
 
-**Contribution:** Hardens Core MVP and Basic AI MVP for real-world use.
+  **Contribution:** Hardens Core MVP and Basic AI MVP for real-world use.
+
+  **Detailed planning record:** The proposed [Phase 5 Plan](phases/PHASE_5_PLAN.md)
+  documents WP5-01 through WP5-08, dependencies, acceptance criteria, risks, and
+  open owner decisions. It does not authorize implementation.
 
 ### P6 — Multi-User SaaS Readiness and Account Management
 

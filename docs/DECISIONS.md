@@ -93,6 +93,15 @@ retention; browser/device support; and cloud test, CI, and production scope.
 Each decision matters to the listed work packages and requires evidence and
 explicit owner approval before implementation.
 
+## Phase 5 Planning Decisions Pending Owner Approval
+
+The proposed Phase 5 plan is documented in [Phase 5 Plan](phases/PHASE_5_PLAN.md).
+D5-01 through D5-09 remain OPEN unless an authoritative owner record approves them.
+They cover supported devices, install/update behavior, offline retention and
+storage limits, backup and restore, performance, accessibility, observability and
+privacy, security hardening, and release/rollback ownership. These decisions
+must not be implemented by inference.
+
 ## Unresolved Questions
 
 Recommendations below are proposals for owner review, not confirmed decisions.
