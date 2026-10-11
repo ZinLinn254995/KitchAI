@@ -2,6 +2,30 @@
 
 **Last updated:** 2026-10-11
 
+## P1-WP2 Local Data Foundation — implemented
+
+Under the [limited execution authorization](docs/PHASE_1_EXECUTION_AUTHORIZATION.md),
+P1-WP2 is **implemented** and **verified locally**:
+
+- Vite + React + TypeScript scaffold with Dexie/IndexedDB persistence
+  (`src/db/`), a Business record with create, edit, archive, restore, and
+  soft delete (tombstone retained, no purge), shared validation, and an
+  outbox that records each mutation atomically with the record and recovers
+  interrupted operations at startup.
+- Minimal development UI (`src/app/`) showing active/archived/deleted views,
+  pending-sync state, and storage/validation errors.
+- **Checks:** `tsc --noEmit` clean; `vitest` 28/28 passing (fake-indexeddb);
+  `vite build` succeeds; browser flow exercised (validation error, create,
+  edit, archive, restore, delete, reload persistence).
+- **Not done / out of scope:** cloud sync, Supabase, authentication (WP3),
+  conflict UI, production deployment. O1–O7 remain open.
+- **Git state:** implementation commit `acc5fe6` on branch
+  `v0/p1-wp2-local-data-foundation`; not merged to `main` (owner review
+  pending). P1-WP3 is not started and requires separate authorization.
+
+Sections below marked **(historical)** record the pre-WP2 state and are kept
+for audit context only.
+
 ## Phase 1 approval packet — planning consolidation
 
 The owner authorized ChatGPT to make and recommend technical planning
@@ -12,12 +36,12 @@ lifecycle, browser matrix, and CI. Seven material decisions requiring owner
 judgment (permanent deletion, privacy erasure, local encryption, offline
 duration, Supabase Pro plan, additional browsers, production deployment)
 remain explicitly marked as OWNER DECISION REQUIRED. The packet does not
-authorize implementation; owner review and acceptance is required before
-coding tasks are created. Application implementation, schemas, migrations,
-infrastructure, and runtime behavior remain unstarted.
+authorize implementation by itself. P1-WP2 was separately authorized and is
+implemented (see above); cloud schemas, migrations, infrastructure, and all
+other Phase 1 work packages remain unstarted.
 
 
-## Current State
+## Current State (historical, pre-WP2)
 
 - **Implemented:** P0.1 documentation foundation and P0.2 product knowledge
   documentation are present. P0.3 Prompt AI continuity guides are implemented
@@ -30,10 +54,10 @@ infrastructure, and runtime behavior remain unstarted.
   stack, handoff, status, link, scope, and whitespace checks passed. P0.5
   relationship, history, cost, decision, link, scope, and whitespace checks
   passed. P0.6 decision coverage, approval labeling, link, status, scope, and
-  whitespace checks passed. No application behavior is verified.
-- **Incomplete:** Application design and implementation; provisional roadmap
-  phases; the proposed Phase 1 through Phase 8 breakdowns are pending complete
-  owner approval; no coding task is currently ready.
+  whitespace checks passed. Before WP2, no application behavior was verified.
+- **Incomplete:** Provisional roadmap phases; the proposed Phase 1 through
+  Phase 8 breakdowns are pending complete owner approval. Since this snapshot,
+  P1-WP2 has been implemented; P1-WP3 and later remain unauthorized.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.
@@ -65,21 +89,23 @@ Phase 5 through Phase 8 planning documentation remains proposed and documentatio
   remains proposed / not approved. Proposed Phase 1 through Phase 8 planning
   documents remain pending owner approval.
 
-P0.7 is an implementation-readiness audit only; it does not authorize
-implementation. The repository is not ready for application implementation.
-The root contains documentation and `.git` only;
-targeted inspection found no application source, configuration, schema,
-migration, or test files. The documentation audit checks passed; no application
-behavior is implemented or verified.
+**(Historical — P0.7 audit, pre-WP2.)** P0.7 is an implementation-readiness
+audit only; it does not authorize implementation. At audit time the repository
+was not ready for application implementation: the root contained
+documentation and `.git` only, and targeted inspection found no application
+source, configuration, schema, migration, or test files. The documentation
+audit checks passed; at that time no application behavior was implemented or
+verified. This no longer describes the WP2 branch, which contains the local
+data foundation described at the top of this file.
 
-**Evidence labels:** Requirements below are confirmed by existing documentation,
-not application behavior. Application functionality implemented and verified
-by repository evidence: none. Proposed stack choices remain unapproved;
+**Evidence labels (historical):** Requirements below are confirmed by existing
+documentation, not application behavior. Application functionality implemented
+and verified by repository evidence at audit time: none. Proposed stack choices remain unapproved;
 unresolved items require owner decisions. Cloud authentication, persistence,
 backup, and multi-device sync are deferred and not applicable to an
 implementation task in the current scope.
 
-## P0.7 Readiness Findings
+## P0.7 Readiness Findings (historical, pre-WP2)
 
 | Area | Evidence-based finding |
 | --- | --- |

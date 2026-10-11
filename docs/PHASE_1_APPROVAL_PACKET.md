@@ -2,8 +2,19 @@
 
 **Status:** Planning consolidation and recommendation packet. This document
 recommends technical decisions the owner authorized ChatGPT to make. It does
-not claim runtime behavior is implemented or verified. Phase 1 implementation
-is not authorized until the owner reviews and accepts this packet.
+not claim runtime behavior is implemented or verified. This packet is not an
+implementation authorization, and owner acceptance of the packet as a whole
+remains pending.
+
+**Current implementation status (post-planning note):** After this packet was
+written, the owner granted a separate, limited
+[execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md) for P1-WP2 only.
+P1-WP2 has been implemented and verified locally on branch
+`v0/p1-wp2-local-data-foundation`; its pull request is not yet merged to
+`main`. P1-WP3 has not started and requires separate owner authorization.
+WP4–WP8 are not authorized. O1–O7 remain OWNER DECISION REQUIRED. The
+readiness assessments in Section 12 are planning-time snapshots unless a
+current-status note says otherwise.
 
 **Date:** 2026-10-11
 
@@ -298,7 +309,7 @@ The following are explicitly out of Phase 1 scope:
 ### Lifecycle States
 
 ```
-active  ──archive──→  archived
+active  ─��archive──→  archived
 archived ──restore──→  active
 active  ──delete───→  [tombstone] (if sync requires)
 archived ──delete───→  [tombstone] (if sync requires)
@@ -736,7 +747,10 @@ test approach and evidence required.
 - **Risks:** IndexedDB quota limits (minimal for Phase 1); browser-specific
   IndexedDB behavior.
 - **Rollback/recovery:** Local-only; clear IndexedDB to reset.
-- **Readiness:** **Blocked** on WP1 owner acceptance.
+- **Readiness (planning-time snapshot):** **Blocked** on WP1 owner acceptance.
+- **Current status:** Implemented and verified locally under the separate
+  limited [execution authorization](PHASE_1_EXECUTION_AUTHORIZATION.md);
+  pull request merge to `main` pending owner review.
 
 ### WP3 — Identity and Access-Control Foundation
 
@@ -754,7 +768,8 @@ test approach and evidence required.
 - **Risks:** Session expiry offline; RLS policy gaps.
 - **Rollback/recovery:** RLS policies are forward-only migrations; revert via
   Git + migration.
-- **Readiness:** **Blocked** on WP1 owner acceptance.
+- **Readiness (planning-time snapshot):** **Blocked** on WP1 owner acceptance.
+- **Current status:** Not started; requires separate owner authorization.
 
 ### WP4 — Cloud Sync Foundation
 
