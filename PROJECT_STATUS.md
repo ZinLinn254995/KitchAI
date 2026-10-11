@@ -17,7 +17,8 @@
   passed. P0.6 decision coverage, approval labeling, link, status, scope, and
   whitespace checks passed. No application behavior is verified.
 - **Incomplete:** Application design and implementation; provisional roadmap
-  phases; no owner-approved phase breakdown or coding task is currently ready.
+  phases; the proposed Phase 1 breakdown is pending complete owner approval;
+  no coding task is currently ready.
 
 These labels are distinct: implemented work exists, verified work has passed a
 stated check, and incomplete work remains unfinished or unchecked.

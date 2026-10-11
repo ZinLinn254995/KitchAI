@@ -13,14 +13,15 @@ into task handoffs.
 - **Last confirmed checkpoint:** Branch `main` was clean and synchronized with
 	`origin/main` after the P0.7 audit. The inspected repository contains no
 	application source, config, schema, migration, or test files.
-- **Incomplete work:** Application implementation remains unstarted. No
-	owner-approved phase breakdown or coding task is ready; roadmap and technical
-	stack remain provisional. Phase 0 is not implementation-ready.
-- **Blockers:** None known.
-- **Next recommended action:** The owner confirms next-phase outcomes and
-	resolves material money, history, cost, ownership, and local-data decisions;
-	Prompt AI can then propose a breakdown for approval. Do not create P0.8,
-	P0.9, P1, or another future phase/task automatically.
+- **Incomplete work:** Application implementation remains unstarted. The
+  proposed Phase 1 breakdown is recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md)
+  but is not owner-approved; no coding task is ready and the stack remains
+  provisional.
+- **Blockers:** Complete owner review and approval of the proposed Phase 1
+  scope and material decisions.
+- **Next recommended action:** Prompt AI and the owner review the proposed Phase
+  1 plan, resolve its listed decisions, and approve or revise it. Do not create
+  implementation prompts or start coding before approval.
 
 ## Task
 

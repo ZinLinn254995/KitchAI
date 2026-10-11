@@ -255,7 +255,8 @@ Table Tap/ordering direction.
 3. Review and obtain owner approval for the complete Phase 1 plan and all
    material decisions.
 4. Record the approved Phase 1 plan and its complete ordered task list in the
-   repository.
+   repository. The current proposal is recorded in [Phase 1 Plan](phases/PHASE_1_PLAN.md)
+   and remains pending owner approval.
 5. Prepare all sequential Coding AI task prompts before beginning the first
    implementation task.
 6. Execute one approved task at a time and validate each result before

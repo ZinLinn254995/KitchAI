@@ -54,6 +54,18 @@ This is a recommendation only. No framework, styling system, local database
 library, PWA plugin, cloud provider, or hosting provider has been approved or
 implemented.
 
+## Phase 1 Planning Decisions Pending Owner Approval
+
+The proposed Phase 1 plan is documented in [Phase 1 Plan](phases/PHASE_1_PLAN.md).
+The following remain unresolved and must not be treated as approved technical
+or business decisions: cloud backend/deployment; authentication/sign-in and
+account-management boundary; simple-record fields and validation; conflict
+review UI versus preservation/status only; first-time online setup versus
+returning offline access; deletion propagation, tombstones, recovery, and
+retention; browser/device support; and cloud test, CI, and production scope.
+Each decision matters to the listed work packages and requires evidence and
+explicit owner approval before implementation.
+
 ## Unresolved Questions
 
 Recommendations below are proposals for owner review, not confirmed decisions.
